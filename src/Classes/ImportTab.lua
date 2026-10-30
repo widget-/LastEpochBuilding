@@ -1675,6 +1675,18 @@ function ImportTabClass:DownloadPassiveTree()
     self:ImportPassiveTreeAndJewels(charData)
 end
 
+-- Item data prefixes two seed bytes per format generation:
+--   format 2: no seed            -> baseTypeID at d[2]
+--   formats 3/5: 2-byte seed     -> baseTypeID at d[4]
+--   format 6 (1.5): 4-byte seed  -> baseTypeID at d[6]
+-- Every other serialized item field is read relative to this offset.
+local function getItemDataBase(d)
+    if not d then return 4 end
+    if d[1] == 2 then return 2 end
+    if d[1] == 6 then return 6 end
+    return 4
+end
+
 function ImportTabClass:ReadJsonSaveData(saveFileContent)
     local saveContent = processJson(saveFileContent)
     if not saveContent or type(saveContent) ~= "table" then
@@ -1788,7 +1800,7 @@ function ImportTabClass:ReadJsonSaveData(saveFileContent)
     for _, itemData in pairsSortByKey(saveContent["savedItems"]) do
         local d = itemData["data"]
         if d then
-            local altarBase = (d[1] == 2) and 2 or 4
+            local altarBase = getItemDataBase(d)
             if d[altarBase] == 41 then
                 char.altarName = altarSubTypeNames[d[altarBase + 1]]
                 break
@@ -1877,9 +1889,9 @@ function ImportTabClass:ReadJsonSaveData(saveFileContent)
                 ["inventoryId"] = itemData["containerID"],
             }
             local d = itemData["data"]
-            -- Format version 2 (older seasons) has no seed bytes, so all offsets shift by -2.
-            -- Format version 3/5 (current) has a 2-byte seed before baseTypeID.
-            local BASE = (d and d[1] == 2) and 2 or 4
+            -- Format 2 (older seasons) has no seed bytes, so all offsets shift by -2.
+            -- Formats 3/5 have a 2-byte seed before baseTypeID; format 6 (1.5) has four.
+            local BASE = getItemDataBase(d)
             local baseTypeID = d[BASE]
             local subTypeID = d[BASE + 1]
             if itemData["containerID"] == 29 then
