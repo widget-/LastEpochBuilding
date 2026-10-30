@@ -878,6 +878,9 @@ end
 -- so we resolve account+character via Maxroll's character API which returns
 -- the offline-save JSON format already handled by ReadJsonSaveData.
 function ImportTabClass:DownloadLEToolsProfileBuild(url)
+    -- Reset before ReadJsonSaveData runs; its [ITEM] no base match lines are
+    -- the only record of which slots were skipped.
+    if ResetDebugLog then ResetDebugLog() end
     self.importCodeFetching = true
     self.importCodeDetail = colorCodes.NORMAL .. "Resolving via Maxroll account API..."
 
@@ -1332,6 +1335,7 @@ function ImportTabClass:BuildItemsFromMaxroll(buildData, profileData, char)
             end
         end
         if not itemBase then
+            ConPrintf("[ITEM] no base match: inventoryId=%s baseTypeID=%s subTypeID=%s", tostring(inventoryId), tostring(baseTypeID), tostring(subTypeID))
             char._parseErrors = char._parseErrors + 1
             return nil
         end
@@ -1358,6 +1362,7 @@ function ImportTabClass:BuildItemsFromMaxroll(buildData, profileData, char)
             -- Unique or Legendary
             local uniqueBase = self.build.data.uniques[uniqueID]
             if not uniqueBase then
+                ConPrintf("[ITEM-ERR] Unknown uniqueID=%s inventoryId=%s", tostring(uniqueID), tostring(inventoryId))
                 char._parseErrors = char._parseErrors + 1
                 return nil
             end
@@ -1635,6 +1640,9 @@ end
 
 function ImportTabClass:DownloadFromMaxroll()
     if launch.LogAction then launch:LogAction("Import: DownloadFromMaxroll") end
+    -- Reset before ReadJsonSaveData runs; its [ITEM] no base match lines are
+    -- the only record of which slots were skipped.
+    if ResetDebugLog then ResetDebugLog() end
     self.charImportStatus = "Downloading build data from Maxroll..."
     local charSelect = self.controls.charSelect
     local charData = charSelect.list[charSelect.selIndex].char
@@ -2358,8 +2366,6 @@ function ImportTabClass:AutoSetConfigFromAbilities(charData)
 end
 
 function ImportTabClass:ImportItemsAndSkills(charData)
-    -- Reset debug.log so it only contains data from the most recent import
-    if ResetDebugLog then ResetDebugLog() end
     ConPrintf("[IMPORT] === Character Import Start: %s (level %s) ===", tostring(charData.name), tostring(charData.level))
     -- Use the latest non-empty itemBases and itemMods for ParseRaw compatibility
     local savedItemBases = data.itemBases
@@ -2487,7 +2493,7 @@ function ImportTabClass:ImportItemsAndSkills(charData)
     ConPrintf("[IMPORT]   Items skipped:      %d", importSkip)
     ConPrintf("[IMPORT]   Affixes dropped (not in itemMods.Item): %d", charData._droppedAffixes or 0)
     if (charData._parseErrors or 0) > 0 or importFail > 0 then
-        ConPrintf("[IMPORT]   !! %d issue(s) detected - check [ITEM-ERR]/[BLESS ERR] lines above", (charData._parseErrors or 0) + importFail)
+        ConPrintf("[IMPORT]   !! %d issue(s) detected - check [ITEM]/[ITEM-ERR]/[BLESS] lines above", (charData._parseErrors or 0) + importFail)
     end
     if (charData._droppedAffixes or 0) > 0 then
         ConPrintf("[IMPORT]   !! %d affix(es) silently dropped - check [IMPORT-DROP] lines above", charData._droppedAffixes)
