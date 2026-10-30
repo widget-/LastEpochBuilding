@@ -125206,5 +125206,6030 @@
 			32
 		],
 		"specialAffixType": 6
+	},
+	"1111_0": {
+		"affixName": "Blood Rage Frenzy",
+		"modName": null,
+		"affix": null,
+		"1": "You have Berserking Rage",
+		"level": 0,
+		"statOrderKey": 1111,
+		"statOrder": [
+			1111
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1111_1": {
+		"affixName": "Blood Rage Frenzy",
+		"modName": null,
+		"affix": null,
+		"1": "You have Berserking Rage",
+		"level": 0,
+		"statOrderKey": 1111,
+		"statOrder": [
+			1111
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1111_2": {
+		"affixName": "Blood Rage Frenzy",
+		"modName": null,
+		"affix": null,
+		"1": "You have Berserking Rage",
+		"level": 0,
+		"statOrderKey": 1111,
+		"statOrder": [
+			1111
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1111_3": {
+		"affixName": "Blood Rage Frenzy",
+		"modName": null,
+		"affix": null,
+		"1": "You have Berserking Rage",
+		"level": 0,
+		"statOrderKey": 1111,
+		"statOrder": [
+			1111
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1111_4": {
+		"affixName": "Blood Rage Frenzy",
+		"modName": null,
+		"affix": null,
+		"1": "You have Berserking Rage",
+		"level": 0,
+		"statOrderKey": 1111,
+		"statOrder": [
+			1111
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1111_5": {
+		"affixName": "Blood Rage Frenzy",
+		"modName": null,
+		"affix": null,
+		"1": "You have Berserking Rage",
+		"level": 0,
+		"statOrderKey": 1111,
+		"statOrder": [
+			1111
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1111_6": {
+		"affixName": "Blood Rage Frenzy",
+		"modName": null,
+		"affix": null,
+		"1": "You have Berserking Rage",
+		"level": 0,
+		"statOrderKey": 1111,
+		"statOrder": [
+			1111
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1111_7": {
+		"affixName": "Blood Rage Frenzy",
+		"modName": null,
+		"affix": null,
+		"1": "You have Berserking Rage",
+		"level": 0,
+		"statOrderKey": 1111,
+		"statOrder": [
+			1111
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1113_0": {
+		"affixName": "Blood Rage Haste",
+		"modName": null,
+		"affix": null,
+		"1": "You have Predator Rage",
+		"level": 0,
+		"statOrderKey": 1113,
+		"statOrder": [
+			1113
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1113_1": {
+		"affixName": "Blood Rage Haste",
+		"modName": null,
+		"affix": null,
+		"1": "You have Predator Rage",
+		"level": 0,
+		"statOrderKey": 1113,
+		"statOrder": [
+			1113
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1113_2": {
+		"affixName": "Blood Rage Haste",
+		"modName": null,
+		"affix": null,
+		"1": "You have Predator Rage",
+		"level": 0,
+		"statOrderKey": 1113,
+		"statOrder": [
+			1113
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1113_3": {
+		"affixName": "Blood Rage Haste",
+		"modName": null,
+		"affix": null,
+		"1": "You have Predator Rage",
+		"level": 0,
+		"statOrderKey": 1113,
+		"statOrder": [
+			1113
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1113_4": {
+		"affixName": "Blood Rage Haste",
+		"modName": null,
+		"affix": null,
+		"1": "You have Predator Rage",
+		"level": 0,
+		"statOrderKey": 1113,
+		"statOrder": [
+			1113
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1113_5": {
+		"affixName": "Blood Rage Haste",
+		"modName": null,
+		"affix": null,
+		"1": "You have Predator Rage",
+		"level": 0,
+		"statOrderKey": 1113,
+		"statOrder": [
+			1113
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1113_6": {
+		"affixName": "Blood Rage Haste",
+		"modName": null,
+		"affix": null,
+		"1": "You have Predator Rage",
+		"level": 0,
+		"statOrderKey": 1113,
+		"statOrder": [
+			1113
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1113_7": {
+		"affixName": "Blood Rage Haste",
+		"modName": null,
+		"affix": null,
+		"1": "You have Predator Rage",
+		"level": 0,
+		"statOrderKey": 1113,
+		"statOrder": [
+			1113
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1114_0": {
+		"affixName": "Blood Rage Mana Ward",
+		"modName": null,
+		"affix": null,
+		"1": "You have Eternal Rage",
+		"level": 0,
+		"statOrderKey": 1114,
+		"statOrder": [
+			1114
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1114_1": {
+		"affixName": "Blood Rage Mana Ward",
+		"modName": null,
+		"affix": null,
+		"1": "You have Eternal Rage",
+		"level": 0,
+		"statOrderKey": 1114,
+		"statOrder": [
+			1114
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1114_2": {
+		"affixName": "Blood Rage Mana Ward",
+		"modName": null,
+		"affix": null,
+		"1": "You have Eternal Rage",
+		"level": 0,
+		"statOrderKey": 1114,
+		"statOrder": [
+			1114
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1114_3": {
+		"affixName": "Blood Rage Mana Ward",
+		"modName": null,
+		"affix": null,
+		"1": "You have Eternal Rage",
+		"level": 0,
+		"statOrderKey": 1114,
+		"statOrder": [
+			1114
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1114_4": {
+		"affixName": "Blood Rage Mana Ward",
+		"modName": null,
+		"affix": null,
+		"1": "You have Eternal Rage",
+		"level": 0,
+		"statOrderKey": 1114,
+		"statOrder": [
+			1114
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1114_5": {
+		"affixName": "Blood Rage Mana Ward",
+		"modName": null,
+		"affix": null,
+		"1": "You have Eternal Rage",
+		"level": 0,
+		"statOrderKey": 1114,
+		"statOrder": [
+			1114
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1114_6": {
+		"affixName": "Blood Rage Mana Ward",
+		"modName": null,
+		"affix": null,
+		"1": "You have Eternal Rage",
+		"level": 0,
+		"statOrderKey": 1114,
+		"statOrder": [
+			1114
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1114_7": {
+		"affixName": "Blood Rage Mana Ward",
+		"modName": null,
+		"affix": null,
+		"1": "You have Eternal Rage",
+		"level": 0,
+		"statOrderKey": 1114,
+		"statOrder": [
+			1114
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1115_0": {
+		"affixName": "Blood Rage Minion Frenzy Haste",
+		"modName": null,
+		"affix": null,
+		"1": "You have Commanding Rage",
+		"level": 0,
+		"statOrderKey": 1115,
+		"statOrder": [
+			1115
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1115_1": {
+		"affixName": "Blood Rage Minion Frenzy Haste",
+		"modName": null,
+		"affix": null,
+		"1": "You have Commanding Rage",
+		"level": 0,
+		"statOrderKey": 1115,
+		"statOrder": [
+			1115
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1115_2": {
+		"affixName": "Blood Rage Minion Frenzy Haste",
+		"modName": null,
+		"affix": null,
+		"1": "You have Commanding Rage",
+		"level": 0,
+		"statOrderKey": 1115,
+		"statOrder": [
+			1115
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1115_3": {
+		"affixName": "Blood Rage Minion Frenzy Haste",
+		"modName": null,
+		"affix": null,
+		"1": "You have Commanding Rage",
+		"level": 0,
+		"statOrderKey": 1115,
+		"statOrder": [
+			1115
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1115_4": {
+		"affixName": "Blood Rage Minion Frenzy Haste",
+		"modName": null,
+		"affix": null,
+		"1": "You have Commanding Rage",
+		"level": 0,
+		"statOrderKey": 1115,
+		"statOrder": [
+			1115
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1115_5": {
+		"affixName": "Blood Rage Minion Frenzy Haste",
+		"modName": null,
+		"affix": null,
+		"1": "You have Commanding Rage",
+		"level": 0,
+		"statOrderKey": 1115,
+		"statOrder": [
+			1115
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1115_6": {
+		"affixName": "Blood Rage Minion Frenzy Haste",
+		"modName": null,
+		"affix": null,
+		"1": "You have Commanding Rage",
+		"level": 0,
+		"statOrderKey": 1115,
+		"statOrder": [
+			1115
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1115_7": {
+		"affixName": "Blood Rage Minion Frenzy Haste",
+		"modName": null,
+		"affix": null,
+		"1": "You have Commanding Rage",
+		"level": 0,
+		"statOrderKey": 1115,
+		"statOrder": [
+			1115
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1116_0": {
+		"affixName": "Blood Rage Area",
+		"modName": null,
+		"affix": null,
+		"1": "You have Explosive Rage",
+		"level": 0,
+		"statOrderKey": 1116,
+		"statOrder": [
+			1116
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1116_1": {
+		"affixName": "Blood Rage Area",
+		"modName": null,
+		"affix": null,
+		"1": "You have Explosive Rage",
+		"level": 0,
+		"statOrderKey": 1116,
+		"statOrder": [
+			1116
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1116_2": {
+		"affixName": "Blood Rage Area",
+		"modName": null,
+		"affix": null,
+		"1": "You have Explosive Rage",
+		"level": 0,
+		"statOrderKey": 1116,
+		"statOrder": [
+			1116
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1116_3": {
+		"affixName": "Blood Rage Area",
+		"modName": null,
+		"affix": null,
+		"1": "You have Explosive Rage",
+		"level": 0,
+		"statOrderKey": 1116,
+		"statOrder": [
+			1116
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1116_4": {
+		"affixName": "Blood Rage Area",
+		"modName": null,
+		"affix": null,
+		"1": "You have Explosive Rage",
+		"level": 0,
+		"statOrderKey": 1116,
+		"statOrder": [
+			1116
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1116_5": {
+		"affixName": "Blood Rage Area",
+		"modName": null,
+		"affix": null,
+		"1": "You have Explosive Rage",
+		"level": 0,
+		"statOrderKey": 1116,
+		"statOrder": [
+			1116
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1116_6": {
+		"affixName": "Blood Rage Area",
+		"modName": null,
+		"affix": null,
+		"1": "You have Explosive Rage",
+		"level": 0,
+		"statOrderKey": 1116,
+		"statOrder": [
+			1116
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1116_7": {
+		"affixName": "Blood Rage Area",
+		"modName": null,
+		"affix": null,
+		"1": "You have Explosive Rage",
+		"level": 0,
+		"statOrderKey": 1116,
+		"statOrder": [
+			1116
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1117_0": {
+		"affixName": "Blood Rage Deadly Strikes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Incisive Rage",
+		"level": 0,
+		"statOrderKey": 1117,
+		"statOrder": [
+			1117
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1117_1": {
+		"affixName": "Blood Rage Deadly Strikes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Incisive Rage",
+		"level": 0,
+		"statOrderKey": 1117,
+		"statOrder": [
+			1117
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1117_2": {
+		"affixName": "Blood Rage Deadly Strikes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Incisive Rage",
+		"level": 0,
+		"statOrderKey": 1117,
+		"statOrder": [
+			1117
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1117_3": {
+		"affixName": "Blood Rage Deadly Strikes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Incisive Rage",
+		"level": 0,
+		"statOrderKey": 1117,
+		"statOrder": [
+			1117
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1117_4": {
+		"affixName": "Blood Rage Deadly Strikes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Incisive Rage",
+		"level": 0,
+		"statOrderKey": 1117,
+		"statOrder": [
+			1117
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1117_5": {
+		"affixName": "Blood Rage Deadly Strikes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Incisive Rage",
+		"level": 0,
+		"statOrderKey": 1117,
+		"statOrder": [
+			1117
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1117_6": {
+		"affixName": "Blood Rage Deadly Strikes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Incisive Rage",
+		"level": 0,
+		"statOrderKey": 1117,
+		"statOrder": [
+			1117
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1117_7": {
+		"affixName": "Blood Rage Deadly Strikes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Incisive Rage",
+		"level": 0,
+		"statOrderKey": 1117,
+		"statOrder": [
+			1117
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1118_0": {
+		"affixName": "Blood Rage Frosty Bleed",
+		"modName": null,
+		"affix": null,
+		"1": "You have Sanguine Rage",
+		"level": 0,
+		"statOrderKey": 1118,
+		"statOrder": [
+			1118
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1118_1": {
+		"affixName": "Blood Rage Frosty Bleed",
+		"modName": null,
+		"affix": null,
+		"1": "You have Sanguine Rage",
+		"level": 0,
+		"statOrderKey": 1118,
+		"statOrder": [
+			1118
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1118_2": {
+		"affixName": "Blood Rage Frosty Bleed",
+		"modName": null,
+		"affix": null,
+		"1": "You have Sanguine Rage",
+		"level": 0,
+		"statOrderKey": 1118,
+		"statOrder": [
+			1118
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1118_3": {
+		"affixName": "Blood Rage Frosty Bleed",
+		"modName": null,
+		"affix": null,
+		"1": "You have Sanguine Rage",
+		"level": 0,
+		"statOrderKey": 1118,
+		"statOrder": [
+			1118
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1118_4": {
+		"affixName": "Blood Rage Frosty Bleed",
+		"modName": null,
+		"affix": null,
+		"1": "You have Sanguine Rage",
+		"level": 0,
+		"statOrderKey": 1118,
+		"statOrder": [
+			1118
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1118_5": {
+		"affixName": "Blood Rage Frosty Bleed",
+		"modName": null,
+		"affix": null,
+		"1": "You have Sanguine Rage",
+		"level": 0,
+		"statOrderKey": 1118,
+		"statOrder": [
+			1118
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1118_6": {
+		"affixName": "Blood Rage Frosty Bleed",
+		"modName": null,
+		"affix": null,
+		"1": "You have Sanguine Rage",
+		"level": 0,
+		"statOrderKey": 1118,
+		"statOrder": [
+			1118
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1118_7": {
+		"affixName": "Blood Rage Frosty Bleed",
+		"modName": null,
+		"affix": null,
+		"1": "You have Sanguine Rage",
+		"level": 0,
+		"statOrderKey": 1118,
+		"statOrder": [
+			1118
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1119_0": {
+		"affixName": "Blood Rage Attributes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Empowered Rage",
+		"level": 0,
+		"statOrderKey": 1119,
+		"statOrder": [
+			1119
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1119_1": {
+		"affixName": "Blood Rage Attributes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Empowered Rage",
+		"level": 0,
+		"statOrderKey": 1119,
+		"statOrder": [
+			1119
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1119_2": {
+		"affixName": "Blood Rage Attributes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Empowered Rage",
+		"level": 0,
+		"statOrderKey": 1119,
+		"statOrder": [
+			1119
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1119_3": {
+		"affixName": "Blood Rage Attributes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Empowered Rage",
+		"level": 0,
+		"statOrderKey": 1119,
+		"statOrder": [
+			1119
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1119_4": {
+		"affixName": "Blood Rage Attributes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Empowered Rage",
+		"level": 0,
+		"statOrderKey": 1119,
+		"statOrder": [
+			1119
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1119_5": {
+		"affixName": "Blood Rage Attributes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Empowered Rage",
+		"level": 0,
+		"statOrderKey": 1119,
+		"statOrder": [
+			1119
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1119_6": {
+		"affixName": "Blood Rage Attributes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Empowered Rage",
+		"level": 0,
+		"statOrderKey": 1119,
+		"statOrder": [
+			1119
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1119_7": {
+		"affixName": "Blood Rage Attributes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Empowered Rage",
+		"level": 0,
+		"statOrderKey": 1119,
+		"statOrder": [
+			1119
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1120_0": {
+		"affixName": "Blood Rage Leech",
+		"modName": null,
+		"affix": null,
+		"1": "You have Feasting Rage",
+		"level": 0,
+		"statOrderKey": 1120,
+		"statOrder": [
+			1120
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1120_1": {
+		"affixName": "Blood Rage Leech",
+		"modName": null,
+		"affix": null,
+		"1": "You have Feasting Rage",
+		"level": 0,
+		"statOrderKey": 1120,
+		"statOrder": [
+			1120
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1120_2": {
+		"affixName": "Blood Rage Leech",
+		"modName": null,
+		"affix": null,
+		"1": "You have Feasting Rage",
+		"level": 0,
+		"statOrderKey": 1120,
+		"statOrder": [
+			1120
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1120_3": {
+		"affixName": "Blood Rage Leech",
+		"modName": null,
+		"affix": null,
+		"1": "You have Feasting Rage",
+		"level": 0,
+		"statOrderKey": 1120,
+		"statOrder": [
+			1120
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1120_4": {
+		"affixName": "Blood Rage Leech",
+		"modName": null,
+		"affix": null,
+		"1": "You have Feasting Rage",
+		"level": 0,
+		"statOrderKey": 1120,
+		"statOrder": [
+			1120
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1120_5": {
+		"affixName": "Blood Rage Leech",
+		"modName": null,
+		"affix": null,
+		"1": "You have Feasting Rage",
+		"level": 0,
+		"statOrderKey": 1120,
+		"statOrder": [
+			1120
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1120_6": {
+		"affixName": "Blood Rage Leech",
+		"modName": null,
+		"affix": null,
+		"1": "You have Feasting Rage",
+		"level": 0,
+		"statOrderKey": 1120,
+		"statOrder": [
+			1120
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1120_7": {
+		"affixName": "Blood Rage Leech",
+		"modName": null,
+		"affix": null,
+		"1": "You have Feasting Rage",
+		"level": 0,
+		"statOrderKey": 1120,
+		"statOrder": [
+			1120
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1121_0": {
+		"affixName": "Blood Rage Marked FD",
+		"modName": null,
+		"affix": null,
+		"1": "You have Murderous Rage",
+		"level": 0,
+		"statOrderKey": 1121,
+		"statOrder": [
+			1121
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1121_1": {
+		"affixName": "Blood Rage Marked FD",
+		"modName": null,
+		"affix": null,
+		"1": "You have Murderous Rage",
+		"level": 0,
+		"statOrderKey": 1121,
+		"statOrder": [
+			1121
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1121_2": {
+		"affixName": "Blood Rage Marked FD",
+		"modName": null,
+		"affix": null,
+		"1": "You have Murderous Rage",
+		"level": 0,
+		"statOrderKey": 1121,
+		"statOrder": [
+			1121
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1121_3": {
+		"affixName": "Blood Rage Marked FD",
+		"modName": null,
+		"affix": null,
+		"1": "You have Murderous Rage",
+		"level": 0,
+		"statOrderKey": 1121,
+		"statOrder": [
+			1121
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1121_4": {
+		"affixName": "Blood Rage Marked FD",
+		"modName": null,
+		"affix": null,
+		"1": "You have Murderous Rage",
+		"level": 0,
+		"statOrderKey": 1121,
+		"statOrder": [
+			1121
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1121_5": {
+		"affixName": "Blood Rage Marked FD",
+		"modName": null,
+		"affix": null,
+		"1": "You have Murderous Rage",
+		"level": 0,
+		"statOrderKey": 1121,
+		"statOrder": [
+			1121
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1121_6": {
+		"affixName": "Blood Rage Marked FD",
+		"modName": null,
+		"affix": null,
+		"1": "You have Murderous Rage",
+		"level": 0,
+		"statOrderKey": 1121,
+		"statOrder": [
+			1121
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1121_7": {
+		"affixName": "Blood Rage Marked FD",
+		"modName": null,
+		"affix": null,
+		"1": "You have Murderous Rage",
+		"level": 0,
+		"statOrderKey": 1121,
+		"statOrder": [
+			1121
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1122_0": {
+		"affixName": "Blood Rage Marked IcyAoE",
+		"modName": null,
+		"affix": null,
+		"1": "You have Frigid Rage",
+		"level": 0,
+		"statOrderKey": 1122,
+		"statOrder": [
+			1122
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1122_1": {
+		"affixName": "Blood Rage Marked IcyAoE",
+		"modName": null,
+		"affix": null,
+		"1": "You have Frigid Rage",
+		"level": 0,
+		"statOrderKey": 1122,
+		"statOrder": [
+			1122
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1122_2": {
+		"affixName": "Blood Rage Marked IcyAoE",
+		"modName": null,
+		"affix": null,
+		"1": "You have Frigid Rage",
+		"level": 0,
+		"statOrderKey": 1122,
+		"statOrder": [
+			1122
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1122_3": {
+		"affixName": "Blood Rage Marked IcyAoE",
+		"modName": null,
+		"affix": null,
+		"1": "You have Frigid Rage",
+		"level": 0,
+		"statOrderKey": 1122,
+		"statOrder": [
+			1122
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1122_4": {
+		"affixName": "Blood Rage Marked IcyAoE",
+		"modName": null,
+		"affix": null,
+		"1": "You have Frigid Rage",
+		"level": 0,
+		"statOrderKey": 1122,
+		"statOrder": [
+			1122
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1122_5": {
+		"affixName": "Blood Rage Marked IcyAoE",
+		"modName": null,
+		"affix": null,
+		"1": "You have Frigid Rage",
+		"level": 0,
+		"statOrderKey": 1122,
+		"statOrder": [
+			1122
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1122_6": {
+		"affixName": "Blood Rage Marked IcyAoE",
+		"modName": null,
+		"affix": null,
+		"1": "You have Frigid Rage",
+		"level": 0,
+		"statOrderKey": 1122,
+		"statOrder": [
+			1122
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1122_7": {
+		"affixName": "Blood Rage Marked IcyAoE",
+		"modName": null,
+		"affix": null,
+		"1": "You have Frigid Rage",
+		"level": 0,
+		"statOrderKey": 1122,
+		"statOrder": [
+			1122
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1123_0": {
+		"affixName": "Blood Rage IcyShockwaveTraversal",
+		"modName": null,
+		"affix": null,
+		"1": "You have Rippling Rage",
+		"level": 0,
+		"statOrderKey": 1123,
+		"statOrder": [
+			1123
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1123_1": {
+		"affixName": "Blood Rage IcyShockwaveTraversal",
+		"modName": null,
+		"affix": null,
+		"1": "You have Rippling Rage",
+		"level": 0,
+		"statOrderKey": 1123,
+		"statOrder": [
+			1123
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1123_2": {
+		"affixName": "Blood Rage IcyShockwaveTraversal",
+		"modName": null,
+		"affix": null,
+		"1": "You have Rippling Rage",
+		"level": 0,
+		"statOrderKey": 1123,
+		"statOrder": [
+			1123
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1123_3": {
+		"affixName": "Blood Rage IcyShockwaveTraversal",
+		"modName": null,
+		"affix": null,
+		"1": "You have Rippling Rage",
+		"level": 0,
+		"statOrderKey": 1123,
+		"statOrder": [
+			1123
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1123_4": {
+		"affixName": "Blood Rage IcyShockwaveTraversal",
+		"modName": null,
+		"affix": null,
+		"1": "You have Rippling Rage",
+		"level": 0,
+		"statOrderKey": 1123,
+		"statOrder": [
+			1123
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1123_5": {
+		"affixName": "Blood Rage IcyShockwaveTraversal",
+		"modName": null,
+		"affix": null,
+		"1": "You have Rippling Rage",
+		"level": 0,
+		"statOrderKey": 1123,
+		"statOrder": [
+			1123
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1123_6": {
+		"affixName": "Blood Rage IcyShockwaveTraversal",
+		"modName": null,
+		"affix": null,
+		"1": "You have Rippling Rage",
+		"level": 0,
+		"statOrderKey": 1123,
+		"statOrder": [
+			1123
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1123_7": {
+		"affixName": "Blood Rage IcyShockwaveTraversal",
+		"modName": null,
+		"affix": null,
+		"1": "You have Rippling Rage",
+		"level": 0,
+		"statOrderKey": 1123,
+		"statOrder": [
+			1123
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1124_0": {
+		"affixName": "Blood Rage ThirdHitHuge",
+		"modName": null,
+		"affix": null,
+		"1": "You have Crescendoing Rage",
+		"level": 0,
+		"statOrderKey": 1124,
+		"statOrder": [
+			1124
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1124_1": {
+		"affixName": "Blood Rage ThirdHitHuge",
+		"modName": null,
+		"affix": null,
+		"1": "You have Crescendoing Rage",
+		"level": 0,
+		"statOrderKey": 1124,
+		"statOrder": [
+			1124
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1124_2": {
+		"affixName": "Blood Rage ThirdHitHuge",
+		"modName": null,
+		"affix": null,
+		"1": "You have Crescendoing Rage",
+		"level": 0,
+		"statOrderKey": 1124,
+		"statOrder": [
+			1124
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1124_3": {
+		"affixName": "Blood Rage ThirdHitHuge",
+		"modName": null,
+		"affix": null,
+		"1": "You have Crescendoing Rage",
+		"level": 0,
+		"statOrderKey": 1124,
+		"statOrder": [
+			1124
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1124_4": {
+		"affixName": "Blood Rage ThirdHitHuge",
+		"modName": null,
+		"affix": null,
+		"1": "You have Crescendoing Rage",
+		"level": 0,
+		"statOrderKey": 1124,
+		"statOrder": [
+			1124
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1124_5": {
+		"affixName": "Blood Rage ThirdHitHuge",
+		"modName": null,
+		"affix": null,
+		"1": "You have Crescendoing Rage",
+		"level": 0,
+		"statOrderKey": 1124,
+		"statOrder": [
+			1124
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1124_6": {
+		"affixName": "Blood Rage ThirdHitHuge",
+		"modName": null,
+		"affix": null,
+		"1": "You have Crescendoing Rage",
+		"level": 0,
+		"statOrderKey": 1124,
+		"statOrder": [
+			1124
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1124_7": {
+		"affixName": "Blood Rage ThirdHitHuge",
+		"modName": null,
+		"affix": null,
+		"1": "You have Crescendoing Rage",
+		"level": 0,
+		"statOrderKey": 1124,
+		"statOrder": [
+			1124
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1125_0": {
+		"affixName": "Blood Rage Minion Rune Death",
+		"modName": null,
+		"affix": null,
+		"1": "You have Blighted Rage",
+		"level": 0,
+		"statOrderKey": 1125,
+		"statOrder": [
+			1125
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1125_1": {
+		"affixName": "Blood Rage Minion Rune Death",
+		"modName": null,
+		"affix": null,
+		"1": "You have Blighted Rage",
+		"level": 0,
+		"statOrderKey": 1125,
+		"statOrder": [
+			1125
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1125_2": {
+		"affixName": "Blood Rage Minion Rune Death",
+		"modName": null,
+		"affix": null,
+		"1": "You have Blighted Rage",
+		"level": 0,
+		"statOrderKey": 1125,
+		"statOrder": [
+			1125
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1125_3": {
+		"affixName": "Blood Rage Minion Rune Death",
+		"modName": null,
+		"affix": null,
+		"1": "You have Blighted Rage",
+		"level": 0,
+		"statOrderKey": 1125,
+		"statOrder": [
+			1125
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1125_4": {
+		"affixName": "Blood Rage Minion Rune Death",
+		"modName": null,
+		"affix": null,
+		"1": "You have Blighted Rage",
+		"level": 0,
+		"statOrderKey": 1125,
+		"statOrder": [
+			1125
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1125_5": {
+		"affixName": "Blood Rage Minion Rune Death",
+		"modName": null,
+		"affix": null,
+		"1": "You have Blighted Rage",
+		"level": 0,
+		"statOrderKey": 1125,
+		"statOrder": [
+			1125
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1125_6": {
+		"affixName": "Blood Rage Minion Rune Death",
+		"modName": null,
+		"affix": null,
+		"1": "You have Blighted Rage",
+		"level": 0,
+		"statOrderKey": 1125,
+		"statOrder": [
+			1125
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1125_7": {
+		"affixName": "Blood Rage Minion Rune Death",
+		"modName": null,
+		"affix": null,
+		"1": "You have Blighted Rage",
+		"level": 0,
+		"statOrderKey": 1125,
+		"statOrder": [
+			1125
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1126_0": {
+		"affixName": "Blood Rage Blood On Death",
+		"modName": null,
+		"affix": null,
+		"1": "You have Bursting Rage",
+		"level": 0,
+		"statOrderKey": 1126,
+		"statOrder": [
+			1126
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1126_1": {
+		"affixName": "Blood Rage Blood On Death",
+		"modName": null,
+		"affix": null,
+		"1": "You have Bursting Rage",
+		"level": 0,
+		"statOrderKey": 1126,
+		"statOrder": [
+			1126
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1126_2": {
+		"affixName": "Blood Rage Blood On Death",
+		"modName": null,
+		"affix": null,
+		"1": "You have Bursting Rage",
+		"level": 0,
+		"statOrderKey": 1126,
+		"statOrder": [
+			1126
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1126_3": {
+		"affixName": "Blood Rage Blood On Death",
+		"modName": null,
+		"affix": null,
+		"1": "You have Bursting Rage",
+		"level": 0,
+		"statOrderKey": 1126,
+		"statOrder": [
+			1126
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1126_4": {
+		"affixName": "Blood Rage Blood On Death",
+		"modName": null,
+		"affix": null,
+		"1": "You have Bursting Rage",
+		"level": 0,
+		"statOrderKey": 1126,
+		"statOrder": [
+			1126
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1126_5": {
+		"affixName": "Blood Rage Blood On Death",
+		"modName": null,
+		"affix": null,
+		"1": "You have Bursting Rage",
+		"level": 0,
+		"statOrderKey": 1126,
+		"statOrder": [
+			1126
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1126_6": {
+		"affixName": "Blood Rage Blood On Death",
+		"modName": null,
+		"affix": null,
+		"1": "You have Bursting Rage",
+		"level": 0,
+		"statOrderKey": 1126,
+		"statOrder": [
+			1126
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1126_7": {
+		"affixName": "Blood Rage Blood On Death",
+		"modName": null,
+		"affix": null,
+		"1": "You have Bursting Rage",
+		"level": 0,
+		"statOrderKey": 1126,
+		"statOrder": [
+			1126
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1127_0": {
+		"affixName": "Blood Rage Rage Aura",
+		"modName": null,
+		"affix": null,
+		"1": "You have Fevered Rage",
+		"level": 0,
+		"statOrderKey": 1127,
+		"statOrder": [
+			1127
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1127_1": {
+		"affixName": "Blood Rage Rage Aura",
+		"modName": null,
+		"affix": null,
+		"1": "You have Fevered Rage",
+		"level": 0,
+		"statOrderKey": 1127,
+		"statOrder": [
+			1127
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1127_2": {
+		"affixName": "Blood Rage Rage Aura",
+		"modName": null,
+		"affix": null,
+		"1": "You have Fevered Rage",
+		"level": 0,
+		"statOrderKey": 1127,
+		"statOrder": [
+			1127
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1127_3": {
+		"affixName": "Blood Rage Rage Aura",
+		"modName": null,
+		"affix": null,
+		"1": "You have Fevered Rage",
+		"level": 0,
+		"statOrderKey": 1127,
+		"statOrder": [
+			1127
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1127_4": {
+		"affixName": "Blood Rage Rage Aura",
+		"modName": null,
+		"affix": null,
+		"1": "You have Fevered Rage",
+		"level": 0,
+		"statOrderKey": 1127,
+		"statOrder": [
+			1127
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1127_5": {
+		"affixName": "Blood Rage Rage Aura",
+		"modName": null,
+		"affix": null,
+		"1": "You have Fevered Rage",
+		"level": 0,
+		"statOrderKey": 1127,
+		"statOrder": [
+			1127
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1127_6": {
+		"affixName": "Blood Rage Rage Aura",
+		"modName": null,
+		"affix": null,
+		"1": "You have Fevered Rage",
+		"level": 0,
+		"statOrderKey": 1127,
+		"statOrder": [
+			1127
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1127_7": {
+		"affixName": "Blood Rage Rage Aura",
+		"modName": null,
+		"affix": null,
+		"1": "You have Fevered Rage",
+		"level": 0,
+		"statOrderKey": 1127,
+		"statOrder": [
+			1127
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1128_0": {
+		"affixName": "Blood Rage Ice Shards",
+		"modName": null,
+		"affix": null,
+		"1": "You have Icy Rage",
+		"level": 0,
+		"statOrderKey": 1128,
+		"statOrder": [
+			1128
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1128_1": {
+		"affixName": "Blood Rage Ice Shards",
+		"modName": null,
+		"affix": null,
+		"1": "You have Icy Rage",
+		"level": 0,
+		"statOrderKey": 1128,
+		"statOrder": [
+			1128
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1128_2": {
+		"affixName": "Blood Rage Ice Shards",
+		"modName": null,
+		"affix": null,
+		"1": "You have Icy Rage",
+		"level": 0,
+		"statOrderKey": 1128,
+		"statOrder": [
+			1128
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1128_3": {
+		"affixName": "Blood Rage Ice Shards",
+		"modName": null,
+		"affix": null,
+		"1": "You have Icy Rage",
+		"level": 0,
+		"statOrderKey": 1128,
+		"statOrder": [
+			1128
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1128_4": {
+		"affixName": "Blood Rage Ice Shards",
+		"modName": null,
+		"affix": null,
+		"1": "You have Icy Rage",
+		"level": 0,
+		"statOrderKey": 1128,
+		"statOrder": [
+			1128
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1128_5": {
+		"affixName": "Blood Rage Ice Shards",
+		"modName": null,
+		"affix": null,
+		"1": "You have Icy Rage",
+		"level": 0,
+		"statOrderKey": 1128,
+		"statOrder": [
+			1128
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1128_6": {
+		"affixName": "Blood Rage Ice Shards",
+		"modName": null,
+		"affix": null,
+		"1": "You have Icy Rage",
+		"level": 0,
+		"statOrderKey": 1128,
+		"statOrder": [
+			1128
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1128_7": {
+		"affixName": "Blood Rage Ice Shards",
+		"modName": null,
+		"affix": null,
+		"1": "You have Icy Rage",
+		"level": 0,
+		"statOrderKey": 1128,
+		"statOrder": [
+			1128
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1129_0": {
+		"affixName": "Blood Rage All Freeze",
+		"modName": null,
+		"affix": null,
+		"1": "You have Freezing Rage",
+		"level": 0,
+		"statOrderKey": 1129,
+		"statOrder": [
+			1129
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1129_1": {
+		"affixName": "Blood Rage All Freeze",
+		"modName": null,
+		"affix": null,
+		"1": "You have Freezing Rage",
+		"level": 0,
+		"statOrderKey": 1129,
+		"statOrder": [
+			1129
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1129_2": {
+		"affixName": "Blood Rage All Freeze",
+		"modName": null,
+		"affix": null,
+		"1": "You have Freezing Rage",
+		"level": 0,
+		"statOrderKey": 1129,
+		"statOrder": [
+			1129
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1129_3": {
+		"affixName": "Blood Rage All Freeze",
+		"modName": null,
+		"affix": null,
+		"1": "You have Freezing Rage",
+		"level": 0,
+		"statOrderKey": 1129,
+		"statOrder": [
+			1129
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1129_4": {
+		"affixName": "Blood Rage All Freeze",
+		"modName": null,
+		"affix": null,
+		"1": "You have Freezing Rage",
+		"level": 0,
+		"statOrderKey": 1129,
+		"statOrder": [
+			1129
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1129_5": {
+		"affixName": "Blood Rage All Freeze",
+		"modName": null,
+		"affix": null,
+		"1": "You have Freezing Rage",
+		"level": 0,
+		"statOrderKey": 1129,
+		"statOrder": [
+			1129
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1129_6": {
+		"affixName": "Blood Rage All Freeze",
+		"modName": null,
+		"affix": null,
+		"1": "You have Freezing Rage",
+		"level": 0,
+		"statOrderKey": 1129,
+		"statOrder": [
+			1129
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1129_7": {
+		"affixName": "Blood Rage All Freeze",
+		"modName": null,
+		"affix": null,
+		"1": "You have Freezing Rage",
+		"level": 0,
+		"statOrderKey": 1129,
+		"statOrder": [
+			1129
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1130_0": {
+		"affixName": "Blood Rage Rune Buff",
+		"modName": null,
+		"affix": null,
+		"1": "You have Runic Rage",
+		"level": 0,
+		"statOrderKey": 1130,
+		"statOrder": [
+			1130
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1130_1": {
+		"affixName": "Blood Rage Rune Buff",
+		"modName": null,
+		"affix": null,
+		"1": "You have Runic Rage",
+		"level": 0,
+		"statOrderKey": 1130,
+		"statOrder": [
+			1130
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1130_2": {
+		"affixName": "Blood Rage Rune Buff",
+		"modName": null,
+		"affix": null,
+		"1": "You have Runic Rage",
+		"level": 0,
+		"statOrderKey": 1130,
+		"statOrder": [
+			1130
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1130_3": {
+		"affixName": "Blood Rage Rune Buff",
+		"modName": null,
+		"affix": null,
+		"1": "You have Runic Rage",
+		"level": 0,
+		"statOrderKey": 1130,
+		"statOrder": [
+			1130
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1130_4": {
+		"affixName": "Blood Rage Rune Buff",
+		"modName": null,
+		"affix": null,
+		"1": "You have Runic Rage",
+		"level": 0,
+		"statOrderKey": 1130,
+		"statOrder": [
+			1130
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1130_5": {
+		"affixName": "Blood Rage Rune Buff",
+		"modName": null,
+		"affix": null,
+		"1": "You have Runic Rage",
+		"level": 0,
+		"statOrderKey": 1130,
+		"statOrder": [
+			1130
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1130_6": {
+		"affixName": "Blood Rage Rune Buff",
+		"modName": null,
+		"affix": null,
+		"1": "You have Runic Rage",
+		"level": 0,
+		"statOrderKey": 1130,
+		"statOrder": [
+			1130
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1130_7": {
+		"affixName": "Blood Rage Rune Buff",
+		"modName": null,
+		"affix": null,
+		"1": "You have Runic Rage",
+		"level": 0,
+		"statOrderKey": 1130,
+		"statOrder": [
+			1130
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1131_0": {
+		"affixName": "Blood Rage Minion Rage Aura",
+		"modName": null,
+		"affix": null,
+		"1": "You have Boiling Rage",
+		"level": 0,
+		"statOrderKey": 1131,
+		"statOrder": [
+			1131
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1131_1": {
+		"affixName": "Blood Rage Minion Rage Aura",
+		"modName": null,
+		"affix": null,
+		"1": "You have Boiling Rage",
+		"level": 0,
+		"statOrderKey": 1131,
+		"statOrder": [
+			1131
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1131_2": {
+		"affixName": "Blood Rage Minion Rage Aura",
+		"modName": null,
+		"affix": null,
+		"1": "You have Boiling Rage",
+		"level": 0,
+		"statOrderKey": 1131,
+		"statOrder": [
+			1131
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1131_3": {
+		"affixName": "Blood Rage Minion Rage Aura",
+		"modName": null,
+		"affix": null,
+		"1": "You have Boiling Rage",
+		"level": 0,
+		"statOrderKey": 1131,
+		"statOrder": [
+			1131
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1131_4": {
+		"affixName": "Blood Rage Minion Rage Aura",
+		"modName": null,
+		"affix": null,
+		"1": "You have Boiling Rage",
+		"level": 0,
+		"statOrderKey": 1131,
+		"statOrder": [
+			1131
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1131_5": {
+		"affixName": "Blood Rage Minion Rage Aura",
+		"modName": null,
+		"affix": null,
+		"1": "You have Boiling Rage",
+		"level": 0,
+		"statOrderKey": 1131,
+		"statOrder": [
+			1131
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1131_6": {
+		"affixName": "Blood Rage Minion Rage Aura",
+		"modName": null,
+		"affix": null,
+		"1": "You have Boiling Rage",
+		"level": 0,
+		"statOrderKey": 1131,
+		"statOrder": [
+			1131
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1131_7": {
+		"affixName": "Blood Rage Minion Rage Aura",
+		"modName": null,
+		"affix": null,
+		"1": "You have Boiling Rage",
+		"level": 0,
+		"statOrderKey": 1131,
+		"statOrder": [
+			1131
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1132_0": {
+		"affixName": "Blood Rage Copied Abilities",
+		"modName": null,
+		"affix": null,
+		"1": "You have Portentous Rage",
+		"level": 0,
+		"statOrderKey": 1132,
+		"statOrder": [
+			1132
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1132_1": {
+		"affixName": "Blood Rage Copied Abilities",
+		"modName": null,
+		"affix": null,
+		"1": "You have Portentous Rage",
+		"level": 0,
+		"statOrderKey": 1132,
+		"statOrder": [
+			1132
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1132_2": {
+		"affixName": "Blood Rage Copied Abilities",
+		"modName": null,
+		"affix": null,
+		"1": "You have Portentous Rage",
+		"level": 0,
+		"statOrderKey": 1132,
+		"statOrder": [
+			1132
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1132_3": {
+		"affixName": "Blood Rage Copied Abilities",
+		"modName": null,
+		"affix": null,
+		"1": "You have Portentous Rage",
+		"level": 0,
+		"statOrderKey": 1132,
+		"statOrder": [
+			1132
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1132_4": {
+		"affixName": "Blood Rage Copied Abilities",
+		"modName": null,
+		"affix": null,
+		"1": "You have Portentous Rage",
+		"level": 0,
+		"statOrderKey": 1132,
+		"statOrder": [
+			1132
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1132_5": {
+		"affixName": "Blood Rage Copied Abilities",
+		"modName": null,
+		"affix": null,
+		"1": "You have Portentous Rage",
+		"level": 0,
+		"statOrderKey": 1132,
+		"statOrder": [
+			1132
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1132_6": {
+		"affixName": "Blood Rage Copied Abilities",
+		"modName": null,
+		"affix": null,
+		"1": "You have Portentous Rage",
+		"level": 0,
+		"statOrderKey": 1132,
+		"statOrder": [
+			1132
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1132_7": {
+		"affixName": "Blood Rage Copied Abilities",
+		"modName": null,
+		"affix": null,
+		"1": "You have Portentous Rage",
+		"level": 0,
+		"statOrderKey": 1132,
+		"statOrder": [
+			1132
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1133_0": {
+		"affixName": "Blood Rage Evade Runes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Evasive Rage",
+		"level": 0,
+		"statOrderKey": 1133,
+		"statOrder": [
+			1133
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1133_1": {
+		"affixName": "Blood Rage Evade Runes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Evasive Rage",
+		"level": 0,
+		"statOrderKey": 1133,
+		"statOrder": [
+			1133
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1133_2": {
+		"affixName": "Blood Rage Evade Runes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Evasive Rage",
+		"level": 0,
+		"statOrderKey": 1133,
+		"statOrder": [
+			1133
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1133_3": {
+		"affixName": "Blood Rage Evade Runes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Evasive Rage",
+		"level": 0,
+		"statOrderKey": 1133,
+		"statOrder": [
+			1133
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1133_4": {
+		"affixName": "Blood Rage Evade Runes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Evasive Rage",
+		"level": 0,
+		"statOrderKey": 1133,
+		"statOrder": [
+			1133
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1133_5": {
+		"affixName": "Blood Rage Evade Runes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Evasive Rage",
+		"level": 0,
+		"statOrderKey": 1133,
+		"statOrder": [
+			1133
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1133_6": {
+		"affixName": "Blood Rage Evade Runes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Evasive Rage",
+		"level": 0,
+		"statOrderKey": 1133,
+		"statOrder": [
+			1133
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1133_7": {
+		"affixName": "Blood Rage Evade Runes",
+		"modName": null,
+		"affix": null,
+		"1": "You have Evasive Rage",
+		"level": 0,
+		"statOrderKey": 1133,
+		"statOrder": [
+			1133
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1134_0": {
+		"affixName": "Blood Rage Blood Mines",
+		"modName": null,
+		"affix": null,
+		"1": "You have Coalescing Rage",
+		"level": 0,
+		"statOrderKey": 1134,
+		"statOrder": [
+			1134
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1134_1": {
+		"affixName": "Blood Rage Blood Mines",
+		"modName": null,
+		"affix": null,
+		"1": "You have Coalescing Rage",
+		"level": 0,
+		"statOrderKey": 1134,
+		"statOrder": [
+			1134
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1134_2": {
+		"affixName": "Blood Rage Blood Mines",
+		"modName": null,
+		"affix": null,
+		"1": "You have Coalescing Rage",
+		"level": 0,
+		"statOrderKey": 1134,
+		"statOrder": [
+			1134
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1134_3": {
+		"affixName": "Blood Rage Blood Mines",
+		"modName": null,
+		"affix": null,
+		"1": "You have Coalescing Rage",
+		"level": 0,
+		"statOrderKey": 1134,
+		"statOrder": [
+			1134
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1134_4": {
+		"affixName": "Blood Rage Blood Mines",
+		"modName": null,
+		"affix": null,
+		"1": "You have Coalescing Rage",
+		"level": 0,
+		"statOrderKey": 1134,
+		"statOrder": [
+			1134
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1134_5": {
+		"affixName": "Blood Rage Blood Mines",
+		"modName": null,
+		"affix": null,
+		"1": "You have Coalescing Rage",
+		"level": 0,
+		"statOrderKey": 1134,
+		"statOrder": [
+			1134
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1134_6": {
+		"affixName": "Blood Rage Blood Mines",
+		"modName": null,
+		"affix": null,
+		"1": "You have Coalescing Rage",
+		"level": 0,
+		"statOrderKey": 1134,
+		"statOrder": [
+			1134
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1134_7": {
+		"affixName": "Blood Rage Blood Mines",
+		"modName": null,
+		"affix": null,
+		"1": "You have Coalescing Rage",
+		"level": 0,
+		"statOrderKey": 1134,
+		"statOrder": [
+			1134
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1135_0": {
+		"affixName": "Blood Rage Blood Potion",
+		"modName": null,
+		"affix": null,
+		"1": "You have Revitalizing Rage",
+		"level": 0,
+		"statOrderKey": 1135,
+		"statOrder": [
+			1135
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1135_1": {
+		"affixName": "Blood Rage Blood Potion",
+		"modName": null,
+		"affix": null,
+		"1": "You have Revitalizing Rage",
+		"level": 0,
+		"statOrderKey": 1135,
+		"statOrder": [
+			1135
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1135_2": {
+		"affixName": "Blood Rage Blood Potion",
+		"modName": null,
+		"affix": null,
+		"1": "You have Revitalizing Rage",
+		"level": 0,
+		"statOrderKey": 1135,
+		"statOrder": [
+			1135
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1135_3": {
+		"affixName": "Blood Rage Blood Potion",
+		"modName": null,
+		"affix": null,
+		"1": "You have Revitalizing Rage",
+		"level": 0,
+		"statOrderKey": 1135,
+		"statOrder": [
+			1135
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1135_4": {
+		"affixName": "Blood Rage Blood Potion",
+		"modName": null,
+		"affix": null,
+		"1": "You have Revitalizing Rage",
+		"level": 0,
+		"statOrderKey": 1135,
+		"statOrder": [
+			1135
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1135_5": {
+		"affixName": "Blood Rage Blood Potion",
+		"modName": null,
+		"affix": null,
+		"1": "You have Revitalizing Rage",
+		"level": 0,
+		"statOrderKey": 1135,
+		"statOrder": [
+			1135
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1135_6": {
+		"affixName": "Blood Rage Blood Potion",
+		"modName": null,
+		"affix": null,
+		"1": "You have Revitalizing Rage",
+		"level": 0,
+		"statOrderKey": 1135,
+		"statOrder": [
+			1135
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1135_7": {
+		"affixName": "Blood Rage Blood Potion",
+		"modName": null,
+		"affix": null,
+		"1": "You have Revitalizing Rage",
+		"level": 0,
+		"statOrderKey": 1135,
+		"statOrder": [
+			1135
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1136_0": {
+		"affixName": "Blood Rage Minion Dog Pile",
+		"modName": null,
+		"affix": null,
+		"1": "You have Shattering Rage",
+		"level": 0,
+		"statOrderKey": 1136,
+		"statOrder": [
+			1136
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1136_1": {
+		"affixName": "Blood Rage Minion Dog Pile",
+		"modName": null,
+		"affix": null,
+		"1": "You have Shattering Rage",
+		"level": 0,
+		"statOrderKey": 1136,
+		"statOrder": [
+			1136
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1136_2": {
+		"affixName": "Blood Rage Minion Dog Pile",
+		"modName": null,
+		"affix": null,
+		"1": "You have Shattering Rage",
+		"level": 0,
+		"statOrderKey": 1136,
+		"statOrder": [
+			1136
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1136_3": {
+		"affixName": "Blood Rage Minion Dog Pile",
+		"modName": null,
+		"affix": null,
+		"1": "You have Shattering Rage",
+		"level": 0,
+		"statOrderKey": 1136,
+		"statOrder": [
+			1136
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1136_4": {
+		"affixName": "Blood Rage Minion Dog Pile",
+		"modName": null,
+		"affix": null,
+		"1": "You have Shattering Rage",
+		"level": 0,
+		"statOrderKey": 1136,
+		"statOrder": [
+			1136
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1136_5": {
+		"affixName": "Blood Rage Minion Dog Pile",
+		"modName": null,
+		"affix": null,
+		"1": "You have Shattering Rage",
+		"level": 0,
+		"statOrderKey": 1136,
+		"statOrder": [
+			1136
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1136_6": {
+		"affixName": "Blood Rage Minion Dog Pile",
+		"modName": null,
+		"affix": null,
+		"1": "You have Shattering Rage",
+		"level": 0,
+		"statOrderKey": 1136,
+		"statOrder": [
+			1136
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1136_7": {
+		"affixName": "Blood Rage Minion Dog Pile",
+		"modName": null,
+		"affix": null,
+		"1": "You have Shattering Rage",
+		"level": 0,
+		"statOrderKey": 1136,
+		"statOrder": [
+			1136
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1137_0": {
+		"affixName": "Blood Rage Minion Monster",
+		"modName": null,
+		"affix": null,
+		"1": "You have Monstrous Rage",
+		"level": 0,
+		"statOrderKey": 1137,
+		"statOrder": [
+			1137
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1137_1": {
+		"affixName": "Blood Rage Minion Monster",
+		"modName": null,
+		"affix": null,
+		"1": "You have Monstrous Rage",
+		"level": 0,
+		"statOrderKey": 1137,
+		"statOrder": [
+			1137
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1137_2": {
+		"affixName": "Blood Rage Minion Monster",
+		"modName": null,
+		"affix": null,
+		"1": "You have Monstrous Rage",
+		"level": 0,
+		"statOrderKey": 1137,
+		"statOrder": [
+			1137
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1137_3": {
+		"affixName": "Blood Rage Minion Monster",
+		"modName": null,
+		"affix": null,
+		"1": "You have Monstrous Rage",
+		"level": 0,
+		"statOrderKey": 1137,
+		"statOrder": [
+			1137
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1137_4": {
+		"affixName": "Blood Rage Minion Monster",
+		"modName": null,
+		"affix": null,
+		"1": "You have Monstrous Rage",
+		"level": 0,
+		"statOrderKey": 1137,
+		"statOrder": [
+			1137
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1137_5": {
+		"affixName": "Blood Rage Minion Monster",
+		"modName": null,
+		"affix": null,
+		"1": "You have Monstrous Rage",
+		"level": 0,
+		"statOrderKey": 1137,
+		"statOrder": [
+			1137
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1137_6": {
+		"affixName": "Blood Rage Minion Monster",
+		"modName": null,
+		"affix": null,
+		"1": "You have Monstrous Rage",
+		"level": 0,
+		"statOrderKey": 1137,
+		"statOrder": [
+			1137
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1137_7": {
+		"affixName": "Blood Rage Minion Monster",
+		"modName": null,
+		"affix": null,
+		"1": "You have Monstrous Rage",
+		"level": 0,
+		"statOrderKey": 1137,
+		"statOrder": [
+			1137
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1138_0": {
+		"affixName": "Blood Rage Minion Pack",
+		"modName": null,
+		"affix": null,
+		"1": "You have Pack Rage",
+		"level": 0,
+		"statOrderKey": 1138,
+		"statOrder": [
+			1138
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1138_1": {
+		"affixName": "Blood Rage Minion Pack",
+		"modName": null,
+		"affix": null,
+		"1": "You have Pack Rage",
+		"level": 0,
+		"statOrderKey": 1138,
+		"statOrder": [
+			1138
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1138_2": {
+		"affixName": "Blood Rage Minion Pack",
+		"modName": null,
+		"affix": null,
+		"1": "You have Pack Rage",
+		"level": 0,
+		"statOrderKey": 1138,
+		"statOrder": [
+			1138
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1138_3": {
+		"affixName": "Blood Rage Minion Pack",
+		"modName": null,
+		"affix": null,
+		"1": "You have Pack Rage",
+		"level": 0,
+		"statOrderKey": 1138,
+		"statOrder": [
+			1138
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1138_4": {
+		"affixName": "Blood Rage Minion Pack",
+		"modName": null,
+		"affix": null,
+		"1": "You have Pack Rage",
+		"level": 0,
+		"statOrderKey": 1138,
+		"statOrder": [
+			1138
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1138_5": {
+		"affixName": "Blood Rage Minion Pack",
+		"modName": null,
+		"affix": null,
+		"1": "You have Pack Rage",
+		"level": 0,
+		"statOrderKey": 1138,
+		"statOrder": [
+			1138
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1138_6": {
+		"affixName": "Blood Rage Minion Pack",
+		"modName": null,
+		"affix": null,
+		"1": "You have Pack Rage",
+		"level": 0,
+		"statOrderKey": 1138,
+		"statOrder": [
+			1138
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1138_7": {
+		"affixName": "Blood Rage Minion Pack",
+		"modName": null,
+		"affix": null,
+		"1": "You have Pack Rage",
+		"level": 0,
+		"statOrderKey": 1138,
+		"statOrder": [
+			1138
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			21
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1140_0": {
+		"affixName": "Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1140,
+		"statOrder": [
+			1140
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1140_1": {
+		"affixName": "Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1140,
+		"statOrder": [
+			1140
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1140_2": {
+		"affixName": "Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1140,
+		"statOrder": [
+			1140
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1140_3": {
+		"affixName": "Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1140,
+		"statOrder": [
+			1140
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1140_4": {
+		"affixName": "Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1140,
+		"statOrder": [
+			1140
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1140_5": {
+		"affixName": "Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1140,
+		"statOrder": [
+			1140
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1140_6": {
+		"affixName": "Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1140,
+		"statOrder": [
+			1140
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1140_7": {
+		"affixName": "Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1140,
+		"statOrder": [
+			1140
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1141_0": {
+		"affixName": "Increased Attack Speed per 5% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Attack Speed per 5% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1141,
+		"statOrder": [
+			1141
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1141_1": {
+		"affixName": "Increased Attack Speed per 5% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Attack Speed per 5% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1141,
+		"statOrder": [
+			1141
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1141_2": {
+		"affixName": "Increased Attack Speed per 5% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Attack Speed per 5% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1141,
+		"statOrder": [
+			1141
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1141_3": {
+		"affixName": "Increased Attack Speed per 5% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Attack Speed per 5% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1141,
+		"statOrder": [
+			1141
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1141_4": {
+		"affixName": "Increased Attack Speed per 5% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Attack Speed per 5% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1141,
+		"statOrder": [
+			1141
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1141_5": {
+		"affixName": "Increased Attack Speed per 5% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Attack Speed per 5% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1141,
+		"statOrder": [
+			1141
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1141_6": {
+		"affixName": "Increased Attack Speed per 5% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Attack Speed per 5% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1141,
+		"statOrder": [
+			1141
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1141_7": {
+		"affixName": "Increased Attack Speed per 5% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Attack Speed per 5% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1141,
+		"statOrder": [
+			1141
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1142_0": {
+		"affixName": "Parry Chance per 10% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Parry Chance per 10% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1142,
+		"statOrder": [
+			1142
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1142_1": {
+		"affixName": "Parry Chance per 10% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Parry Chance per 10% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1142,
+		"statOrder": [
+			1142
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1142_2": {
+		"affixName": "Parry Chance per 10% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Parry Chance per 10% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1142,
+		"statOrder": [
+			1142
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1142_3": {
+		"affixName": "Parry Chance per 10% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Parry Chance per 10% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1142,
+		"statOrder": [
+			1142
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1142_4": {
+		"affixName": "Parry Chance per 10% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Parry Chance per 10% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1142,
+		"statOrder": [
+			1142
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1142_5": {
+		"affixName": "Parry Chance per 10% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Parry Chance per 10% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1142,
+		"statOrder": [
+			1142
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1142_6": {
+		"affixName": "Parry Chance per 10% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Parry Chance per 10% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1142,
+		"statOrder": [
+			1142
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1142_7": {
+		"affixName": "Parry Chance per 10% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Parry Chance per 10% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1142,
+		"statOrder": [
+			1142
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1143_0": {
+		"affixName": "Armor per 1% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1 Armor per 1% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1143,
+		"statOrder": [
+			1143
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1143_1": {
+		"affixName": "Armor per 1% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1 Armor per 1% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1143,
+		"statOrder": [
+			1143
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1143_2": {
+		"affixName": "Armor per 1% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1 Armor per 1% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1143,
+		"statOrder": [
+			1143
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1143_3": {
+		"affixName": "Armor per 1% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1 Armor per 1% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1143,
+		"statOrder": [
+			1143
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1143_4": {
+		"affixName": "Armor per 1% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1 Armor per 1% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1143,
+		"statOrder": [
+			1143
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1143_5": {
+		"affixName": "Armor per 1% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1 Armor per 1% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1143,
+		"statOrder": [
+			1143
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1143_6": {
+		"affixName": "Armor per 1% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1 Armor per 1% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1143,
+		"statOrder": [
+			1143
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1143_7": {
+		"affixName": "Armor per 1% Overcapped Physical Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1 Armor per 1% Overcapped Physical Resistance",
+		"level": 0,
+		"statOrderKey": 1143,
+		"statOrder": [
+			1143
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1144_0": {
+		"affixName": "Increased Cast Speed per 5% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Cast Speed per 5% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1144,
+		"statOrder": [
+			1144
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1144_1": {
+		"affixName": "Increased Cast Speed per 5% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Cast Speed per 5% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1144,
+		"statOrder": [
+			1144
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1144_2": {
+		"affixName": "Increased Cast Speed per 5% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Cast Speed per 5% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1144,
+		"statOrder": [
+			1144
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1144_3": {
+		"affixName": "Increased Cast Speed per 5% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Cast Speed per 5% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1144,
+		"statOrder": [
+			1144
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1144_4": {
+		"affixName": "Increased Cast Speed per 5% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Cast Speed per 5% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1144,
+		"statOrder": [
+			1144
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1144_5": {
+		"affixName": "Increased Cast Speed per 5% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Cast Speed per 5% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1144,
+		"statOrder": [
+			1144
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1144_6": {
+		"affixName": "Increased Cast Speed per 5% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Cast Speed per 5% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1144,
+		"statOrder": [
+			1144
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1144_7": {
+		"affixName": "Increased Cast Speed per 5% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Cast Speed per 5% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1144,
+		"statOrder": [
+			1144
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1145_0": {
+		"affixName": "Damage Over Time Taken per 8% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "-1% Damage Over Time Taken per 8% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1145,
+		"statOrder": [
+			1145
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1145_1": {
+		"affixName": "Damage Over Time Taken per 8% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "-1% Damage Over Time Taken per 8% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1145,
+		"statOrder": [
+			1145
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1145_2": {
+		"affixName": "Damage Over Time Taken per 8% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "-1% Damage Over Time Taken per 8% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1145,
+		"statOrder": [
+			1145
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1145_3": {
+		"affixName": "Damage Over Time Taken per 8% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "-1% Damage Over Time Taken per 8% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1145,
+		"statOrder": [
+			1145
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1145_4": {
+		"affixName": "Damage Over Time Taken per 8% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "-1% Damage Over Time Taken per 8% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1145,
+		"statOrder": [
+			1145
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1145_5": {
+		"affixName": "Damage Over Time Taken per 8% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "-1% Damage Over Time Taken per 8% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1145,
+		"statOrder": [
+			1145
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1145_6": {
+		"affixName": "Damage Over Time Taken per 8% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "-1% Damage Over Time Taken per 8% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1145,
+		"statOrder": [
+			1145
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1145_7": {
+		"affixName": "Damage Over Time Taken per 8% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "-1% Damage Over Time Taken per 8% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1145,
+		"statOrder": [
+			1145
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1146_0": {
+		"affixName": "Minion Spell Damage per 5% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Minion Spell Damage per 5% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1146,
+		"statOrder": [
+			1146
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1146_1": {
+		"affixName": "Minion Spell Damage per 5% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Minion Spell Damage per 5% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1146,
+		"statOrder": [
+			1146
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1146_2": {
+		"affixName": "Minion Spell Damage per 5% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Minion Spell Damage per 5% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1146,
+		"statOrder": [
+			1146
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1146_3": {
+		"affixName": "Minion Spell Damage per 5% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Minion Spell Damage per 5% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1146,
+		"statOrder": [
+			1146
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1146_4": {
+		"affixName": "Minion Spell Damage per 5% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Minion Spell Damage per 5% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1146,
+		"statOrder": [
+			1146
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1146_5": {
+		"affixName": "Minion Spell Damage per 5% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Minion Spell Damage per 5% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1146,
+		"statOrder": [
+			1146
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1146_6": {
+		"affixName": "Minion Spell Damage per 5% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Minion Spell Damage per 5% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1146,
+		"statOrder": [
+			1146
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1146_7": {
+		"affixName": "Minion Spell Damage per 5% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Minion Spell Damage per 5% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1146,
+		"statOrder": [
+			1146
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1147_0": {
+		"affixName": "Increased Cooldown Recovery Speed per 8% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Cooldown Recovery Speed per 8% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1147,
+		"statOrder": [
+			1147
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1147_1": {
+		"affixName": "Increased Cooldown Recovery Speed per 8% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Cooldown Recovery Speed per 8% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1147,
+		"statOrder": [
+			1147
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1147_2": {
+		"affixName": "Increased Cooldown Recovery Speed per 8% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Cooldown Recovery Speed per 8% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1147,
+		"statOrder": [
+			1147
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1147_3": {
+		"affixName": "Increased Cooldown Recovery Speed per 8% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Cooldown Recovery Speed per 8% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1147,
+		"statOrder": [
+			1147
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1147_4": {
+		"affixName": "Increased Cooldown Recovery Speed per 8% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Cooldown Recovery Speed per 8% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1147,
+		"statOrder": [
+			1147
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1147_5": {
+		"affixName": "Increased Cooldown Recovery Speed per 8% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Cooldown Recovery Speed per 8% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1147,
+		"statOrder": [
+			1147
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1147_6": {
+		"affixName": "Increased Cooldown Recovery Speed per 8% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Cooldown Recovery Speed per 8% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1147,
+		"statOrder": [
+			1147
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1147_7": {
+		"affixName": "Increased Cooldown Recovery Speed per 8% Overcapped Cold Resistance",
+		"modName": null,
+		"affix": null,
+		"1": "+1% Increased Cooldown Recovery Speed per 8% Overcapped Cold Resistance",
+		"level": 0,
+		"statOrderKey": 1147,
+		"statOrder": [
+			1147
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			4
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1150_0": {
+		"affixName": "Strength per Equipped Heretical Idol",
+		"modName": null,
+		"affix": null,
+		"1": "+(4-6) Strength per Equipped Heretical Idol",
+		"level": 0,
+		"statOrderKey": 1150,
+		"statOrder": [
+			1150
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			33
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1151_0": {
+		"affixName": "Dexterity per Equipped Heretical Idol",
+		"modName": null,
+		"affix": null,
+		"1": "+(4-6) Dexterity per Equipped Heretical Idol",
+		"level": 0,
+		"statOrderKey": 1151,
+		"statOrder": [
+			1151
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			33
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1152_0": {
+		"affixName": "Vitality per Equipped Heretical Idol",
+		"modName": null,
+		"affix": null,
+		"1": "+(4-6) Vitality per Equipped Heretical Idol",
+		"level": 0,
+		"statOrderKey": 1152,
+		"statOrder": [
+			1152
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			33
+		],
+		"specialAffixType": 7,
+		"classSpecificity": 0
+	},
+	"1153_0": {
+		"affixName": "Primalist Level of Summon Tide Elemental",
+		"modName": null,
+		"affix": null,
+		"1": "+1 to Summon Tide Elemental",
+		"level": 25,
+		"statOrderKey": 1153,
+		"statOrder": [
+			1153
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			22
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 2,
+		"2": "{rounding:Integer}(5-10)% increased Melee Damage"
+	},
+	"1153_1": {
+		"affixName": "Primalist Level of Summon Tide Elemental",
+		"modName": null,
+		"affix": null,
+		"1": "+1 to Summon Tide Elemental",
+		"level": 25,
+		"statOrderKey": 1153,
+		"statOrder": [
+			1153
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			22
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 2,
+		"2": "{rounding:Integer}(11-20)% increased Melee Damage"
+	},
+	"1153_2": {
+		"affixName": "Primalist Level of Summon Tide Elemental",
+		"modName": null,
+		"affix": null,
+		"1": "+1 to Summon Tide Elemental",
+		"level": 25,
+		"statOrderKey": 1153,
+		"statOrder": [
+			1153
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			22
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 2,
+		"2": "{rounding:Integer}(21-30)% increased Melee Damage"
+	},
+	"1153_3": {
+		"affixName": "Primalist Level of Summon Tide Elemental",
+		"modName": null,
+		"affix": null,
+		"1": "+1 to Summon Tide Elemental",
+		"level": 25,
+		"statOrderKey": 1153,
+		"statOrder": [
+			1153
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			22
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 2,
+		"2": "{rounding:Integer}(31-40)% increased Melee Damage"
+	},
+	"1153_4": {
+		"affixName": "Primalist Level of Summon Tide Elemental",
+		"modName": null,
+		"affix": null,
+		"1": "+2 to Summon Tide Elemental",
+		"level": 25,
+		"statOrderKey": 1153,
+		"statOrder": [
+			1153
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			22
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 2,
+		"2": "{rounding:Integer}(41-60)% increased Melee Damage"
+	},
+	"1153_5": {
+		"affixName": "Primalist Level of Summon Tide Elemental",
+		"modName": null,
+		"affix": null,
+		"1": "+3 to Summon Tide Elemental",
+		"level": 25,
+		"statOrderKey": 1153,
+		"statOrder": [
+			1153
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			22
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 2,
+		"2": "{rounding:Integer}(71-80)% increased Melee Damage"
+	},
+	"1153_6": {
+		"affixName": "Primalist Level of Summon Tide Elemental",
+		"modName": null,
+		"affix": null,
+		"1": "+4 to Summon Tide Elemental",
+		"level": 25,
+		"statOrderKey": 1153,
+		"statOrder": [
+			1153
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			22
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 2,
+		"2": "{rounding:Integer}(81-1)% increased Melee Damage"
+	},
+	"1153_7": {
+		"affixName": "Primalist Level of Summon Tide Elemental",
+		"modName": null,
+		"affix": null,
+		"1": "+6 to Summon Tide Elemental",
+		"level": 25,
+		"statOrderKey": 1153,
+		"statOrder": [
+			1153
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			22
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 2,
+		"2": "{rounding:Integer}(1.6-2)% increased Melee Damage"
+	},
+	"1154_0": {
+		"affixName": "Rogue Level of Dreamslash",
+		"modName": null,
+		"affix": null,
+		"1": "+1 to Dreamslash",
+		"level": 20,
+		"statOrderKey": 1154,
+		"statOrder": [
+			1154
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			0
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 32,
+		"2": "{rounding:Integer}(5-10)% increased Melee Damage"
+	},
+	"1154_1": {
+		"affixName": "Rogue Level of Dreamslash",
+		"modName": null,
+		"affix": null,
+		"1": "+1 to Dreamslash",
+		"level": 20,
+		"statOrderKey": 1154,
+		"statOrder": [
+			1154
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			0
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 32,
+		"2": "{rounding:Integer}(11-20)% increased Melee Damage"
+	},
+	"1154_2": {
+		"affixName": "Rogue Level of Dreamslash",
+		"modName": null,
+		"affix": null,
+		"1": "+1 to Dreamslash",
+		"level": 20,
+		"statOrderKey": 1154,
+		"statOrder": [
+			1154
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			0
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 32,
+		"2": "{rounding:Integer}(21-30)% increased Melee Damage"
+	},
+	"1154_3": {
+		"affixName": "Rogue Level of Dreamslash",
+		"modName": null,
+		"affix": null,
+		"1": "+1 to Dreamslash",
+		"level": 20,
+		"statOrderKey": 1154,
+		"statOrder": [
+			1154
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			0
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 32,
+		"2": "{rounding:Integer}(31-40)% increased Melee Damage"
+	},
+	"1154_4": {
+		"affixName": "Rogue Level of Dreamslash",
+		"modName": null,
+		"affix": null,
+		"1": "+2 to Dreamslash",
+		"level": 20,
+		"statOrderKey": 1154,
+		"statOrder": [
+			1154
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			0
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 32,
+		"2": "{rounding:Integer}(41-60)% increased Melee Damage"
+	},
+	"1154_5": {
+		"affixName": "Rogue Level of Dreamslash",
+		"modName": null,
+		"affix": null,
+		"1": "+3 to Dreamslash",
+		"level": 20,
+		"statOrderKey": 1154,
+		"statOrder": [
+			1154
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			0
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 32,
+		"2": "{rounding:Integer}(71-80)% increased Melee Damage"
+	},
+	"1154_6": {
+		"affixName": "Rogue Level of Dreamslash",
+		"modName": null,
+		"affix": null,
+		"1": "+4 to Dreamslash",
+		"level": 20,
+		"statOrderKey": 1154,
+		"statOrder": [
+			1154
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			0
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 32,
+		"2": "{rounding:Integer}(81-1)% increased Melee Damage"
+	},
+	"1154_7": {
+		"affixName": "Rogue Level of Dreamslash",
+		"modName": null,
+		"affix": null,
+		"1": "+6 to Dreamslash",
+		"level": 20,
+		"statOrderKey": 1154,
+		"statOrder": [
+			1154
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			0
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 32,
+		"2": "{rounding:Integer}(1.6-2)% increased Melee Damage"
+	},
+	"1155_0": {
+		"affixName": "Sentinel Level of Radiant Lance",
+		"modName": null,
+		"affix": null,
+		"1": "+1 to Radiant Lance",
+		"level": 25,
+		"statOrderKey": 1155,
+		"statOrder": [
+			1155
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0.5,
+		"canRollOn": [
+			1
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 8,
+		"2": "{rounding:Integer}(8-15)% increased Melee Damage"
+	},
+	"1155_1": {
+		"affixName": "Sentinel Level of Radiant Lance",
+		"modName": null,
+		"affix": null,
+		"1": "+1 to Radiant Lance",
+		"level": 25,
+		"statOrderKey": 1155,
+		"statOrder": [
+			1155
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0.5,
+		"canRollOn": [
+			1
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 8,
+		"2": "{rounding:Integer}(16-30)% increased Melee Damage"
+	},
+	"1155_2": {
+		"affixName": "Sentinel Level of Radiant Lance",
+		"modName": null,
+		"affix": null,
+		"1": "+1 to Radiant Lance",
+		"level": 25,
+		"statOrderKey": 1155,
+		"statOrder": [
+			1155
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0.5,
+		"canRollOn": [
+			1
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 8,
+		"2": "{rounding:Integer}(31-45)% increased Melee Damage"
+	},
+	"1155_3": {
+		"affixName": "Sentinel Level of Radiant Lance",
+		"modName": null,
+		"affix": null,
+		"1": "+1 to Radiant Lance",
+		"level": 25,
+		"statOrderKey": 1155,
+		"statOrder": [
+			1155
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0.5,
+		"canRollOn": [
+			1
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 8,
+		"2": "{rounding:Integer}(46-60)% increased Melee Damage"
+	},
+	"1155_4": {
+		"affixName": "Sentinel Level of Radiant Lance",
+		"modName": null,
+		"affix": null,
+		"1": "+2 to Radiant Lance",
+		"level": 25,
+		"statOrderKey": 1155,
+		"statOrder": [
+			1155
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0.5,
+		"canRollOn": [
+			1
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 8,
+		"2": "{rounding:Integer}(61-90)% increased Melee Damage"
+	},
+	"1155_5": {
+		"affixName": "Sentinel Level of Radiant Lance",
+		"modName": null,
+		"affix": null,
+		"1": "+3 to Radiant Lance",
+		"level": 25,
+		"statOrderKey": 1155,
+		"statOrder": [
+			1155
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0.5,
+		"canRollOn": [
+			1
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 8,
+		"2": "{rounding:Integer}(1.06-1.2)% increased Melee Damage"
+	},
+	"1155_6": {
+		"affixName": "Sentinel Level of Radiant Lance",
+		"modName": null,
+		"affix": null,
+		"1": "+4 to Radiant Lance",
+		"level": 25,
+		"statOrderKey": 1155,
+		"statOrder": [
+			1155
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0.5,
+		"canRollOn": [
+			1
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 8,
+		"2": "{rounding:Integer}(1.21-1.5)% increased Melee Damage"
+	},
+	"1155_7": {
+		"affixName": "Sentinel Level of Radiant Lance",
+		"modName": null,
+		"affix": null,
+		"1": "+6 to Radiant Lance",
+		"level": 25,
+		"statOrderKey": 1155,
+		"statOrder": [
+			1155
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0.5,
+		"canRollOn": [
+			1
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 8,
+		"2": "{rounding:Integer}(2.4-3)% increased Melee Damage"
+	},
+	"1156_0": {
+		"affixName": "Increased Mana and Mana Regen",
+		"modName": "Cerulean",
+		"affix": "Cerulean",
+		"1": "{rounding:Integer}(3)% increased Mana",
+		"level": 0,
+		"statOrderKey": 1156,
+		"statOrder": [
+			1156
+		],
+		"tier": 0,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			0,
+			1
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 8,
+		"2": "{rounding:Integer}(10-13)% increased Mana Regen"
+	},
+	"1156_1": {
+		"affixName": "Increased Mana and Mana Regen",
+		"modName": "Cerulean",
+		"affix": "Cerulean",
+		"1": "{rounding:Integer}(4)% increased Mana",
+		"level": 0,
+		"statOrderKey": 1156,
+		"statOrder": [
+			1156
+		],
+		"tier": 1,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			0,
+			1
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 8,
+		"2": "{rounding:Integer}(14-17)% increased Mana Regen"
+	},
+	"1156_2": {
+		"affixName": "Increased Mana and Mana Regen",
+		"modName": "Cerulean",
+		"affix": "Cerulean",
+		"1": "{rounding:Integer}(5)% increased Mana",
+		"level": 0,
+		"statOrderKey": 1156,
+		"statOrder": [
+			1156
+		],
+		"tier": 2,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			0,
+			1
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 8,
+		"2": "{rounding:Integer}(18-22)% increased Mana Regen"
+	},
+	"1156_3": {
+		"affixName": "Increased Mana and Mana Regen",
+		"modName": "Cerulean",
+		"affix": "Cerulean",
+		"1": "{rounding:Integer}(6)% increased Mana",
+		"level": 0,
+		"statOrderKey": 1156,
+		"statOrder": [
+			1156
+		],
+		"tier": 3,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			0,
+			1
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 8,
+		"2": "{rounding:Integer}(23-27)% increased Mana Regen"
+	},
+	"1156_4": {
+		"affixName": "Increased Mana and Mana Regen",
+		"modName": "Cerulean",
+		"affix": "Cerulean",
+		"1": "{rounding:Integer}(7)% increased Mana",
+		"level": 0,
+		"statOrderKey": 1156,
+		"statOrder": [
+			1156
+		],
+		"tier": 4,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			0,
+			1
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 8,
+		"2": "{rounding:Integer}(28-33)% increased Mana Regen"
+	},
+	"1156_5": {
+		"affixName": "Increased Mana and Mana Regen",
+		"modName": "Cerulean",
+		"affix": "Cerulean",
+		"1": "{rounding:Integer}(10)% increased Mana",
+		"level": 0,
+		"statOrderKey": 1156,
+		"statOrder": [
+			1156
+		],
+		"tier": 5,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			0,
+			1
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 8,
+		"2": "{rounding:Integer}(37-43)% increased Mana Regen"
+	},
+	"1156_6": {
+		"affixName": "Increased Mana and Mana Regen",
+		"modName": "Cerulean",
+		"affix": "Cerulean",
+		"1": "{rounding:Integer}(14)% increased Mana",
+		"level": 0,
+		"statOrderKey": 1156,
+		"statOrder": [
+			1156
+		],
+		"tier": 6,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			0,
+			1
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 8,
+		"2": "{rounding:Integer}(44-55)% increased Mana Regen"
+	},
+	"1156_7": {
+		"affixName": "Increased Mana and Mana Regen",
+		"modName": "Cerulean",
+		"affix": "Cerulean",
+		"1": "{rounding:Integer}(30)% increased Mana",
+		"level": 0,
+		"statOrderKey": 1156,
+		"statOrder": [
+			1156
+		],
+		"tier": 7,
+		"type": "Prefix",
+		"standardAffixEffectModifier": 0,
+		"canRollOn": [
+			0,
+			1
+		],
+		"specialAffixType": 0,
+		"classSpecificity": 8,
+		"2": "{rounding:Integer}(75-90)% increased Mana Regen"
 	}
 }

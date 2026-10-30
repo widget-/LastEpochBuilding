@@ -54,6 +54,21 @@ describe("game version 1.5", function()
 		assert.is_truthy(temporal.notScalingStats[1]:find("Damage Reduced By Increased Attack Speed", 1, true))
 	end)
 
+	it("includes the 1.5-only affixes and keeps the 1.4 rows", function()
+		local mods = data.versionData["1_5"].itemMods.Item
+		assert.are.equal("You have Berserking Rage", mods["1111_0"][1])
+		assert.are.equal(
+			"+1% Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance",
+			mods["1140_0"][1])
+		assert.are.equal("+(4-6) Strength per Equipped Heretical Idol", mods["1150_0"][1])
+		assert.are.equal("+1 to Summon Tide Elemental", mods["1153_0"][1])
+		assert.is_nil(mods["1148_0"], "unique-specific affixes live in uniques_1_5, not ModItem")
+		assert.are.equal("of Defense", mods["1_0"]["affix"], "1.4 rows must be preserved")
+		local count = 0
+		for _ in pairs(mods) do count = count + 1 end
+		assert.is_true(count > 5907, "expected the 1.5 affix table to grow past 1.4")
+	end)
+
 	it("opens a 1.5 build and computes", function()
 		loadBuildFromXML(buildXML(), "1_5-spec")
 		assert.are.equal("1_5", build.spec.treeVersion)

@@ -103,8 +103,8 @@ describe("ImportAffixIdCeilingPhantom", function()
         ceiling, validId, validTier = liveAffixFacts()
     end)
 
-    it("derives a registry ceiling matching the datamined 1.4.7 max (1112)", function()
-        assert.are.equal(1112, ceiling)
+    it("derives a registry ceiling matching the datamined 1.5 max (1156)", function()
+        assert.are.equal(1156, ceiling)
     end)
 
     it("does NOT count an above-ceiling decode as a dropped affix (phantom over-read)", function()

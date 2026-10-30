@@ -118,15 +118,23 @@ def convert(args):
 	added = 0
 	for aid in sorted(by_id):
 		src = by_id[aid]
-		tiers = src.get("tiers") or []
 		leet = where.get(aid) or {}
+		# Unique-specific affixes duplicate data that lives in uniques_*.json and
+		# their stat text is not generatable from the affix name.
+		if leet.get("forUniqueId"):
+			continue
+		tiers = src.get("tiers") or []
 		can_roll = leet.get("canRollOn")
 		template = templates.get(aid) or by_name.get(src.get("affixName"))
 		for tier_index, tier in enumerate(tiers):
 			key = f"{aid}_{tier_index}"
 			if key in out:
 				continue
-			if template is not None and template.get("1"):
+			if (src.get("affixName") or "").startswith("Blood Rage") and leet.get("va"):
+				# Blood Rage affixes carry an internal asset name but the display
+				# name ("You have Berserking Rage") is the in-game stat line.
+				lines = [leet["va"]]
+			elif template is not None and template.get("1"):
 				first = replace_first_number(
 					template["1"],
 					tier.get("minRoll", 0),
@@ -166,7 +174,7 @@ def convert(args):
 
 	path = os.path.join(args.leb_root, "src/Data", f"ModItem_{args.version}.json")
 	with open(path, "w", encoding="utf-8") as f:
-		json.dump(out, f, ensure_ascii=False, separators=(",", ":"), sort_keys=True)
+		json.dump(out, f, ensure_ascii=False, indent="\t")
 		f.write("\n")
 	print(f"wrote {path}: {len(out)} entries ({len(leb)} existing, {added} added)")
 
