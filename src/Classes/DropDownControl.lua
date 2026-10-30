@@ -19,7 +19,7 @@ local DropDownClass = newClass("DropDownControl", "Control", "ControlHost", "Too
 			end,
 			-- value mapping function
 			function(listVal)
-				return StripEscapes(type(listVal) == "table" and listVal.label or listVal)
+				return StripEscapes(self:GetListLabel(listVal))
 			end
 	)
 	self.controls.scrollBar = new("ScrollBarControl", {"TOPRIGHT",self,"TOPRIGHT"}, -1, 0, 18, 0, (height - 4) * 4)
@@ -43,6 +43,24 @@ local DropDownClass = newClass("DropDownControl", "Control", "ControlHost", "Too
 	self.enableChangeBoxWidth = false
 	-- self.tag = "-"
 end)
+
+-- List entries are either plain strings or tables carrying a `label`. A table
+-- can legitimately have no label (e.g. a socket group whose displayLabel has
+-- not been calculated yet); returning the table itself makes DrawString throw
+-- "expected string, got table" every frame and takes the whole UI down.
+function DropDownClass:GetListLabel(listVal)
+	if type(listVal) == "table" then
+		local label = listVal.label
+		if type(label) ~= "string" then
+			label = listVal.name
+		end
+		return type(label) == "string" and label or ""
+	end
+	if listVal == nil then
+		return ""
+	end
+	return type(listVal) == "string" and listVal or tostring(listVal)
+end
 
 -- Collapsible group headers: a list entry with `isHeader = true` is rendered
 -- distinctly and is not selectable; clicking it toggles `collapsed`, which
@@ -346,10 +364,7 @@ function DropDownClass:Draw(viewPort, noTooltip)
 	if self:IsSearchActive() then
 		selLabel = "Search: " .. self:GetSearchTermPretty()
 	else
-		selLabel = self.list[self.selIndex]
-		if type(selLabel) == "table" then
-			selLabel = selLabel.label
-		end
+		selLabel = self:GetListLabel(self.list[self.selIndex])
 	end
 	-- For idol-style cells the "+" marker already conveys empty state; suppress
 	-- the "None" label so its clipped left-edge pixels don't show as stray bars.
@@ -452,7 +467,7 @@ function DropDownClass:Draw(viewPort, noTooltip)
 					end
 					SetDrawColor(1, 1, 1)
 					local marker = listVal.collapsed and "[+] " or "[-] "
-					local label = marker .. (listVal.label or "")
+					local label = marker .. self:GetListLabel(listVal)
 					DrawString(0, y, "LEFT", itemFontSize, "VAR", label)
 				else
 					-- highlight background if hovered
@@ -494,7 +509,7 @@ function DropDownClass:Draw(viewPort, noTooltip)
 						end
 					end
 					-- draw actual item label with search match highlight if available
-					local label = type(listVal) == "table" and listVal.label or listVal
+					local label = self:GetListLabel(listVal)
 					DrawString(rowIconOffset, y, "LEFT", itemFontSize, "VAR", label)
 					self:DrawSearchHighlights(label, searchInfo, rowIconOffset, y, width - 4 - rowIconOffset, itemFontSize)
 				end
@@ -641,19 +656,14 @@ function DropDownClass:CheckDroppedWidth(enable)
 		  -- do not be smaller than the created width
 		local dWidth = self.width
 		for _, line in ipairs(self.list) do
-			if type(line) == "table" then
-				line = line.label or ""
-			end
+			line = self:GetListLabel(line)
 			  -- +10 to stop clipping
 			dWidth = m_max(dWidth, DrawStringWidth(measureFont, "VAR", line) + 10 + iconReserve)
 		end
 		  -- no greater than self.maxDroppedWidth
 		self.droppedWidth = m_min(dWidth + scrollWidth, self.maxDroppedWidth)
 		if self.enableChangeBoxWidth then
-			local line = self.list[self.selIndex]
-			if type(line) == "table" then
-				line = line.label
-			end
+			local line = self:GetListLabel(self.list[self.selIndex])
 			-- add 20 to account for the 'down arrow' in the box
 			local boxWidth
 			boxWidth = DrawStringWidth(measureFont, "VAR", line or "") + 20

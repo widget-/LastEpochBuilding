@@ -1730,7 +1730,14 @@ function buildMode:RefreshSkillSelectControls(controls, mainGroup, suffix)
 		-- triggers and timer-only skills (no manual group) are NOT hidden. Display-only.
 		local hideTimerDuplicate = socketGroup.triggeredByTimer and gsid and manualSkillIds[gsid]
 		if not (hideAilment or hideSelfTrigger or hideTimerDuplicate) then
-			table.insert(controls.mainSocketGroup.list, { val = i, label = socketGroup.displayLabel })
+			local label = socketGroup.displayLabel
+			if type(label) ~= "string" then
+				label = socketGroup.label
+			end
+			if type(label) ~= "string" or label == "" then
+				label = "<No active skills>"
+			end
+			table.insert(controls.mainSocketGroup.list, { val = i, label = label })
 			if i == mainGroup then
 				controls.mainSocketGroup.selIndex = #controls.mainSocketGroup.list
 			end
