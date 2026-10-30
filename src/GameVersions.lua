@@ -40,9 +40,9 @@
 ---0 builds (all 644 corpus builds carry targetVersion="1_4"; none take this path).
 ---Test: spec/System/TestTreeVersionRetire_spec.lua
 ---  "keeps legacyTargetVersion on a live, offered version"
-legacyTargetVersion = "1_4"
+legacyTargetVersion = "1_5"
 ---Default target for new builds and target to convert legacy builds to.
-liveTargetVersion = "1_4"
+liveTargetVersion = "1_5"
 
 -- Skill tree versions
 ---Every skill tree version LEB can LOAD. Grows as seasons are added; entries are
@@ -50,11 +50,11 @@ liveTargetVersion = "1_4"
 ---Data.lua loads per-version data by iterating this list, and main:LoadTree
 ---gates lazy tree loading on membership here.
 ---@type string[]
-treeVersionList = { "1_2", "1_3", "1_4" }
+treeVersionList = { "1_2", "1_3", "1_4", "1_5" }
 ---Skill tree versions the UI OFFERS for creating or converting a build.
 ---Retiring a version from the UI means removing it HERE and only here.
 ---@type string[]
-offeredTreeVersionList = { "1_4" }
+offeredTreeVersionList = { "1_5" }
 --- Always points to the latest skill tree version.
 --- Positional BY DESIGN: "last entry == newest" stays true as seasons are added,
 --- so adding "1_5" to treeVersionList automatically makes 1_4 builds show the
@@ -87,6 +87,11 @@ treeVersions = {
 	["1_4"] = {
 		display = "1.4",
 		num = 1.4,
+		url = "",
+	},
+	["1_5"] = {
+		display = "1.5",
+		num = 1.5,
 		url = "",
 	},
 }

@@ -192,7 +192,10 @@ function main:Init()
 				return ""
 			end)
 			local rangedLine = itemLib.applyRange(line, self.defaultItemAffixQuality, 1, rounding)
-			modLib.parseMod(rangedLine)
+			local ok, err = pcall(modLib.parseMod, rangedLine)
+			if not ok then
+				ConPrintf("ModCache: skipped unparsable line '%s': %s", rangedLine, tostring(err))
+			end
 		end
 		
 		-- Load all the not scaling stats

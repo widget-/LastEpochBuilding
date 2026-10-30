@@ -114,7 +114,7 @@ describe("UmbralBladesEdgeOfObscurity #skills", function()
 			if mod.name == "Damage" and mod.type == "MORE" then found = mod end
 		end
 		assert.is_not_nil(found, "Edge of Obscurity must emit a MORE Damage mod")
-		assert.are.equal(6, found.value, "2% per point x 3 allocated points must rank-scale to +6%")
+		assert.are.equal(3, found.value, "1% per point x 3 allocated points must rank-scale to +3%")
 		assert.is_not_nil(findTag(found, "Multiplier", "DuskShroudStacks"),
 			"the node mod must be per-Dusk-Shroud-stack")
 		assert.is_nil(findTag(found, "SkillName"),
@@ -123,7 +123,7 @@ describe("UmbralBladesEdgeOfObscurity #skills", function()
 			"the SkillId scoping must be KEPT -- Edge of Obscurity MORE only buffs Umbral Blades")
 	end)
 
-	it("behaviour: scoped MORE = 6% x stacks (cap 20) at 3/3; 0 = no-op; other skills unaffected", function()
+	it("behaviour: scoped MORE = 3% x stacks (cap 20) at 3/3; 0 = no-op; other skills unaffected", function()
 		newBuild()
 		local node = build.spec.nodes["ub5d9-7"]
 		node.alloc = 3
@@ -145,15 +145,15 @@ describe("UmbralBladesEdgeOfObscurity #skills", function()
 
 		-- 0 stacks (default) -> strict no-op
 		assert.are.equal(1, moreAt(0, ubCfg))
-		-- 10 stacks -> +6% x 10 = +60% MORE (1.60) -- the spec target
-		assert.is_true(math.abs(moreAt(10, ubCfg) - 1.60) < 1e-9,
-			"10 stacks must give 1.60 MORE, got " .. tostring(moreAt(10, ubCfg)))
-		-- exactly 20 stacks -> +6% x 20 = +120% MORE (2.20)
-		assert.is_true(math.abs(moreAt(20, ubCfg) - 2.20) < 1e-9,
-			"20 stacks must give 2.20 MORE, got " .. tostring(moreAt(20, ubCfg)))
-		-- cap: 25 stacks must still be +120% (parser limit 20)
-		assert.is_true(math.abs(moreAt(25, ubCfg) - 2.20) < 1e-9,
-			"25 stacks must cap at 2.20 MORE, got " .. tostring(moreAt(25, ubCfg)))
+		-- 10 stacks -> +3% x 10 = +30% MORE (1.30) -- the spec target
+		assert.is_true(math.abs(moreAt(10, ubCfg) - 1.30) < 1e-9,
+			"10 stacks must give 1.30 MORE, got " .. tostring(moreAt(10, ubCfg)))
+		-- exactly 20 stacks -> +3% x 20 = +60% MORE (1.60)
+		assert.is_true(math.abs(moreAt(20, ubCfg) - 1.60) < 1e-9,
+			"20 stacks must give 1.60 MORE, got " .. tostring(moreAt(20, ubCfg)))
+		-- cap: 25 stacks must still be +60% (parser limit 20)
+		assert.is_true(math.abs(moreAt(25, ubCfg) - 1.60) < 1e-9,
+			"25 stacks must cap at 1.60 MORE, got " .. tostring(moreAt(25, ubCfg)))
 		-- scope: a non-Umbral-Blades skill gets nothing even at 20 stacks
 		assert.are.equal(1, moreAt(20, otherCfg))
 	end)
