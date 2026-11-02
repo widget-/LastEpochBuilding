@@ -1705,7 +1705,7 @@ function ItemClass:Craft()
 					-- `specialAffixType` is carried for the same reason as `tier`: the tooltip
 					-- needs the affix's pool to colour it (3 = Reforged Set, 6 = corruption-
 					-- exclusive, etc.) without re-resolving the affix DB per rendered line.
-					local modLine = { line = line, range = affix.range, valueScalar = modScalar, affixType = mod.type, tier = mod.tier, specialAffixType = mod.specialAffixType }
+					local modLine = { line = line, range = affix.range, valueScalar = modScalar, affixType = mod.type, tier = mod.tier, specialAffixType = mod.specialAffixType, displayCategory = mod.displayCategory }
 					if affix.valueScalar and affix.valueScalar ~= 1 then
 						modLine.displayValueScalar = displayScalar
 					end

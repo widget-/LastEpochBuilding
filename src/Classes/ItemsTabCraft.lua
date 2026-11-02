@@ -763,6 +763,7 @@ function ItemsTabClass:CraftRebuildItem()
 							primordial = slotKey == "primordial" or nil,
 							variantAffix = isVariant or nil,
 							specialAffixType = isVariant and 7 or nil,
+							displayCategory = mod.displayCategory,
 						})
 					end
 				end

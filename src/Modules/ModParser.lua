@@ -3660,6 +3660,60 @@ for lower, canonical in pairs(skillNameByLower) do
 	end
 end
 
+-- Last Epoch 1.5 Blood Rage variants ("You have Sanguine Rage", ...).
+-- Ground truth: game i18n Properties.Property_Ability_bloodRageFrenzy_N_AltText.
+-- Every Blood Rage grants 5% increased attack and cast speed and 3% increased
+-- movement speed; the variant adds its own effect where LEB has a stat for it.
+local function bloodRageCommon()
+	return {
+		mod("Speed", "INC", 5, "", ModFlag.Attack),
+		mod("Speed", "INC", 5, "", ModFlag.Cast),
+		mod("MovementSpeed", "INC", 3),
+	}
+end
+
+local bloodRageSpecific = {
+	-- +200% bleed chance and 100% increased damage over time.
+	sanguine = function()
+		return {
+			mod("BleedChance", "BASE", 200, "", ModFlag.Hit),
+			mod("Damage", "INC", 100, "", ModFlag.Dot),
+		}
+	end,
+	-- +10 to all attributes.
+	empowered = function()
+		return {
+			mod("Str", "BASE", 10), mod("Dex", "BASE", 10),
+			mod("Int", "BASE", 10), mod("Att", "BASE", 10),
+		}
+	end,
+	-- 50% increased area of effect for area skills.
+	explosive = function()
+		return { mod("AreaOfEffect", "INC", 50) }
+	end,
+	-- +10% critical strike chance (Deadly Strikes is not modelled).
+	incisive = function()
+		return { mod("CritChance", "BASE", 10) }
+	end,
+	-- 50 ward per second and 50% increased mana regeneration.
+	eternal = function()
+		return {
+			mod("WardPerSecond", "BASE", 50),
+			mod("ManaRegen", "INC", 50),
+		}
+	end,
+}
+
+specialModList["^you have (.-) rage$"] = function(_, name)
+	name = (name or ""):gsub("%s+$", "")
+	local mods = bloodRageCommon()
+	local specific = bloodRageSpecific[name]
+	if specific then
+		for _, m in ipairs(specific()) do table.insert(mods, m) end
+	end
+	return mods
+end
+
 -- Buff-effect recognition (named stats only; no DPS integration yet)
 local knownBuffsOnYou = { "Haste", "Frenzy", "Haven", "Rebuke", "Unholy Might", "Smoke Bomb" }
 for _, buff in ipairs(knownBuffsOnYou) do

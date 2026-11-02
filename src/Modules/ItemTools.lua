@@ -848,7 +848,7 @@ local function sourceColorCode(modLine, item)
 	if modLine.kind == "corrupted" then
 		return colorCodes.SEALEDCORRUPTED   -- .Corrupted (10) — sealed FROM corruption
 	end
-	if modLine.variantAffix then
+	if modLine.variantAffix or modLine.displayCategory == 44 then
 		return colorCodes.VARIANT           -- Variant slot (1.5)
 	end
 	-- --- item rarity beats every remaining per-affix fact ---
