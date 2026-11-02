@@ -27,6 +27,7 @@ colorCodes = {
 	SEALEDCORRUPTED = "^xA872DE", -- .Corrupted (10) — sealed-from-corruption
 	PRIMORDIAL = "^xF0A534",      -- .Primordial (9)
 	CORRUPTEDAFFIX = "^xE6ADFF",  -- corruption-exclusive affix pool
+	VARIANT = "^xE08A2E",         -- ItemAffix.SpecialAffixType.Variant (7)
 	SOURCE = "^x88FFFF",
 	UNSUPPORTED = "^xF05050",
 	WARNING = "^xFF9922",

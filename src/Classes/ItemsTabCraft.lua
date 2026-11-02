@@ -39,8 +39,8 @@ local t_insert = table.insert
 local pairs = pairs
 local ipairs = ipairs
 
-local SLOT_ORDER = { "prefix1", "prefix2", "suffix1", "suffix2", "sealed", "primordial" }
-local ALL_SLOTS  = { "prefix1", "prefix2", "suffix1", "suffix2", "sealed", "primordial", "corrupted" }
+local SLOT_ORDER = { "variant", "prefix1", "prefix2", "suffix1", "suffix2", "sealed", "primordial" }
+local ALL_SLOTS  = { "variant", "prefix1", "prefix2", "suffix1", "suffix2", "sealed", "primordial", "corrupted" }
 
 -- Cross-tier slider helpers: a slider's value (0..1) spans ALL tiers (1..N) of
 -- the current affix, with each tier occupying an equal sub-range. Vertical
@@ -264,6 +264,7 @@ function ItemsTabClass:CraftRecalcLayout()
 	local isSetItem     = self:CraftIsSetItem()
 
 	local sectionOrder = {
+		{ label = "variantLabel",    slots = { "variant" } },
 		{ label = "prefixLabel",     slots = { "prefix1", "prefix2" } },
 		{ label = "suffixLabel",     slots = { "suffix1", "suffix2" } },
 		{ label = "sealedLabel",     slots = { "sealed" } },
@@ -331,6 +332,7 @@ function ItemsTabClass:CraftRecalcLayout()
 
 	for _, sec in ipairs(sectionOrder) do
 		local skip = false
+		if sec.label == "variantLabel" and #(self.craftAffixLists.variant or {}) == 0 then skip = true end
 		if isUniqueIdol and sec.label ~= "corruptedLabel" then skip = true end
 		if isSetItem then skip = true end
 		if not skip and isUniqueItem
@@ -612,7 +614,9 @@ function ItemsTabClass:CraftSelectSlotAffix(slotKey, entry)
 	if st.modKey == entry.statOrderKey then return end
 	local maxT = entry.maxTier or 0
 	st.modKey = entry.statOrderKey
-	if slotKey == "primordial" then
+	if slotKey == "variant" then
+		st.tier = 0
+	elseif slotKey == "primordial" then
 		st.tier = m_min(7, maxT)
 	else
 		st.tier = m_min(4, maxT)
@@ -645,6 +649,7 @@ function ItemsTabClass:CraftRebuildItem()
 	wipeTable(item.explicitModLines)
 	wipeTable(item.prefixes)
 	wipeTable(item.suffixes)
+	item.variantAffix = nil
 	item.namePrefix = ""
 	item.nameSuffix = ""
 
@@ -690,9 +695,12 @@ function ItemsTabClass:CraftRebuildItem()
 	for _, slotKey in ipairs(SLOT_ORDER) do
 		local st = self.craftAffixState[slotKey]
 		if st.modKey then
-			affixCount = affixCount + 1
-			hasAffix   = true
-			if st.tier > maxTier then maxTier = st.tier end
+			local isVariant = slotKey == "variant"
+			if not isVariant then
+				affixCount = affixCount + 1
+				hasAffix   = true
+				if st.tier > maxTier then maxTier = st.tier end
+			end
 			local modKey = tostring(st.modKey) .. "_" .. tostring(st.tier)
 			local mod = itemMods[modKey]
 			if not mod and not isAltarItem and data.modIdol and data.modIdol.flat then
@@ -720,7 +728,9 @@ function ItemsTabClass:CraftRebuildItem()
 					if s:find("%d") then return false end
 					return true
 				end
-				if mod.type == "Prefix" then
+				if isVariant then
+					item.variantAffix = { modId = modKey, range = st.ranges[1] or 128 }
+				elseif mod.type == "Prefix" then
 					prefixIdx = prefixIdx + 1
 					item.prefixes[prefixIdx] = { modId = modKey, range = st.ranges[1] or 128 }
 					local pfxName = mod.affix
@@ -751,6 +761,8 @@ function ItemsTabClass:CraftRebuildItem()
 							line = line, range = st.ranges[lineIdx] or 128,
 							valueScalar = modScalar,
 							primordial = slotKey == "primordial" or nil,
+							variantAffix = isVariant or nil,
+							specialAffixType = isVariant and 7 or nil,
 						})
 					end
 				end
@@ -1092,6 +1104,7 @@ function ItemsTabClass:CraftRefreshAffixDropdowns()
 	end
 	local prefixGroups = newBuckets()
 	local suffixGroups = newBuckets()
+	local variantGroups = {}
 
 	local function classifySubcategory(mod)
 		local sat = mod.specialAffixType or 0
@@ -1106,6 +1119,8 @@ function ItemsTabClass:CraftRefreshAffixDropdowns()
 			return "set_only"
 		elseif sat == 6 then
 			return "corrupted"
+		elseif sat == 7 and mod.displayCategory == 44 then
+			return "variant"
 		end
 		return nil
 	end
@@ -1130,9 +1145,11 @@ function ItemsTabClass:CraftRefreshAffixDropdowns()
 				local cs = mod.classSpecificity or 0
 				if cs ~= 0 and playerCsBit ~= 0 and bit.band(cs, playerCsBit) == 0 then goto continue end
 			end
-			local buckets = mod.type == "Prefix" and prefixGroups or (mod.type == "Suffix" and suffixGroups or nil)
+			local buckets = (mod.specialAffixType == 7 and mod.displayCategory == 44) and variantGroups
+				or (mod.type == "Prefix" and prefixGroups
+				or (mod.type == "Suffix" and suffixGroups or nil))
 			if buckets then
-				local groups = buckets[subcat]
+				local groups = (buckets == variantGroups) and variantGroups or buckets[subcat]
 				local t0 = itemMods[tostring(mod.statOrderKey) .. "_0"] or mod
 				if not groups[mod.statOrderKey] then
 					local labelParts = {}
@@ -1192,6 +1209,7 @@ function ItemsTabClass:CraftRefreshAffixDropdowns()
 	local suffixList     = {}
 	local sealedList     = {}
 	local primordialList = {}
+	local variantList = {}
 
 	local function pushSealedAndPrimordial(g)
 		t_insert(sealedList, {
@@ -1222,6 +1240,7 @@ function ItemsTabClass:CraftRefreshAffixDropdowns()
 			type = g.type, maxTier = m_min(g.maxTier, 6), subcategory = g.subcategory,
 		}
 	end
+	for _, g in pairs(variantGroups) do t_insert(variantList, copyCapped(g)) end
 	for _, g in ipairs(prefixIter) do t_insert(prefixList, copyCapped(g)) end
 	for _, g in ipairs(suffixIter) do t_insert(suffixList, copyCapped(g)) end
 	for _, g in ipairs(sealedPrefixIter) do pushSealedAndPrimordial(g) end
@@ -1231,6 +1250,7 @@ function ItemsTabClass:CraftRefreshAffixDropdowns()
 	table.sort(suffixList, sortByLabel)
 	table.sort(sealedList, sortByLabel)
 	table.sort(primordialList, sortByLabel)
+	table.sort(variantList, sortByLabel)
 
 	local function filterExclusions(list, excludeKeys)
 		local filtered = {}
@@ -1261,6 +1281,7 @@ function ItemsTabClass:CraftRefreshAffixDropdowns()
 	if s2Key then t_insert(sealedExclude, s2Key) end
 	self.craftAffixLists.sealed     = filterExclusions(sealedList, sealedExclude)
 	self.craftAffixLists.primordial = filterExclusions(primordialList, sealedExclude)
+	self.craftAffixLists.variant    = variantList
 
 	local corruptedList = {}
 	if self:CraftIsIdolAltar() then
@@ -1450,10 +1471,12 @@ end
 -- =============================================================================
 function ItemsTabClass:CraftResetState()
 	self.craftAffixLists = {
+		variant = {},
 		prefix1 = {}, prefix2 = {}, suffix1 = {}, suffix2 = {},
 		sealed = {}, primordial = {}, corrupted = {},
 	}
 	self.craftAffixState = {
+		variant    = { modKey = nil, tier = 0, ranges = {} },
 		prefix1    = { modKey = nil, tier = 0, ranges = {} },
 		prefix2    = { modKey = nil, tier = 0, ranges = {} },
 		suffix1    = { modKey = nil, tier = 0, ranges = {} },
@@ -1843,6 +1866,7 @@ function ItemsTabClass:BuildCraftControls()
 	end
 
 	local affixSections = {
+		{ key = "variant",    label = "VARIANT",          slots = { "variant" } },
 		{ key = "prefix",     label = "PREFIXES",         slots = { "prefix1", "prefix2" } },
 		{ key = "suffix",     label = "SUFFIXES",         slots = { "suffix1", "suffix2" } },
 		{ key = "sealed",     label = "SEALED AFFIX",     slots = { "sealed" } },
@@ -1886,6 +1910,7 @@ function ItemsTabClass:BuildCraftControls()
 
 		controls[ctlLabelKey].shown = function()
 			if not self_ref.craftActive or not self_ref.craftEditItem then return false end
+			if capturedSectionKey == "variant" and #(self_ref.craftAffixLists.variant or {}) == 0 then return false end
 			if capturedSectionKey ~= "corrupted" and self_ref:CraftIsUniqueIdol() then return false end
 			if self_ref:CraftIsSetItem() then return false end
 			if (capturedSectionKey == "sealed" or capturedSectionKey == "primordial")

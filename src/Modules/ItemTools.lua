@@ -152,7 +152,8 @@ function itemLib.itemHasPrimordial(item)
 				for si, slot in ipairs(list) do
 					if slot.modId and slot.modId ~= "None" then
 						local mod = item.affixes[slot.modId]
-						if mod and mod.specialAffixType == 7 then return true end
+						if mod and mod.specialAffixType == 7
+							and mod.displayCategory ~= 44 then return true end
 					end
 				end
 			end
@@ -847,6 +848,9 @@ local function sourceColorCode(modLine, item)
 	if modLine.kind == "corrupted" then
 		return colorCodes.SEALEDCORRUPTED   -- .Corrupted (10) — sealed FROM corruption
 	end
+	if modLine.variantAffix then
+		return colorCodes.VARIANT           -- Variant slot (1.5)
+	end
 	-- --- item rarity beats every remaining per-affix fact ---
 	if item and item.rarity == "LEGENDARY" and modLine.affixType then
 		return colorCodes.LEGENDARY         -- .Legendary (12)
@@ -868,6 +872,9 @@ local function sourceColorCode(modLine, item)
 	end
 	if sat == 6 then
 		return colorCodes.CORRUPTEDAFFIX    -- corruption-exclusive pool
+	end
+	if sat == 7 then
+		return colorCodes.PRIMORDIAL
 	end
 	if modLine.tier and modLine.tier >= 5 then
 		return colorCodes.EXALTED           -- .Exalted (11) — T6/T7

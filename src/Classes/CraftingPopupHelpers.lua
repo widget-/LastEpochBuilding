@@ -160,6 +160,7 @@ H.LP_DD_H        = 18
 H.LP_SLIDER_W    = H.LEFT_W - H.LP_LINE_X - 8
 
 H.SLOT_LABELS = {
+	variant = "Variant",
 	prefix1 = "Prefix",  prefix2 = "Prefix",
 	suffix1 = "Suffix",  suffix2 = "Suffix",
 	sealed  = "Sealed",  primordial = "Primordial",
@@ -170,7 +171,7 @@ H.SLOT_LABELS_IDOL = {
 }
 
 -- Slots where T8 is not allowed
-H.NO_T8_SLOTS = { prefix1=true, prefix2=true, suffix1=true, suffix2=true, sealed=true, corrupted=true }
+H.NO_T8_SLOTS = { variant=true, prefix1=true, prefix2=true, suffix1=true, suffix2=true, sealed=true, corrupted=true }
 -- Fixed-tier slots
 H.FIXED_TIER_SLOTS = { primordial=true }
 

@@ -101,7 +101,7 @@ end
 -- Spec: spec/System/TestUniqueInherentNotCrafted_spec.lua
 local lineFlags = {
 	["crafted"] = true, ["custom"] = true, ["enchant"] = true, ["implicit"] = true,
-	["uniqueInherent"] = true,
+	["uniqueInherent"] = true, ["variantAffix"] = true,
 }
 
 -- @leb-regression-guard: pattern-a-affix-level-req
@@ -472,6 +472,7 @@ function ItemClass:ParseRaw(raw, rarity, highQuality)
 	self.variantList = nil
 	self.prefixes = { }
 	self.suffixes = { }
+	self.variantAffix = nil
 	self.requirements = { }
 	self.requirements.str = 0
 	self.requirements.dex = 0
@@ -547,6 +548,15 @@ function ItemClass:ParseRaw(raw, rarity, highQuality)
 					self.crafted = true
 				elseif specName == "Implicit" then
 					self.implicit = true
+				elseif specName == "Variant Affix" then
+					local kind, rest = specVal:match("^{kind:([%a]+)}(.+)$")
+					if not kind then rest = specVal end
+					local range, affix = rest:match("{range:([%d.]+)}(.+)")
+					self.variantAffix = {
+						modId = affix or rest,
+						range = range and tonumber(range) or main.defaultItemAffixQuality,
+						kind = kind,
+					}
 				elseif specName == "Prefix" or specName == "Suffix" then
 					-- @leb-regression-guard: affix-kind-roundtrip (read side)
 					-- Mirror of BuildRaw's affixPrefix. Strip optional {kind:...}
@@ -634,6 +644,9 @@ function ItemClass:ParseRaw(raw, rarity, highQuality)
 					return ""
 				end)
 
+				if modLine.variantAffix then
+					modLine.specialAffixType = modLine.specialAffixType or 7
+				end
 				line = line:gsub(" %((%l+)%)", function(k)
 					if lineFlags[k] then
 						modLine[k] = true
@@ -1135,6 +1148,9 @@ function ItemClass:ParseRaw(raw, rarity, highQuality)
 			end
 			if needsRecraft then break end
 		end
+		if self.variantAffix then
+			needsRecraft = true
+		end
 		if needsRecraft then
 			self._craftingInternal = true
 			self:Craft()
@@ -1259,6 +1275,12 @@ function ItemClass:BuildRaw()
 			t_insert(rawLines, "Suffix: " .. affixPrefix(affix) .. affix.modId)
 		end
 	end
+	if self.variantAffix and self.variantAffix.modId
+		and self.variantAffix.modId ~= "None" then
+		local range = self.variantAffix.range
+			and ("{range:" .. round(self.variantAffix.range, 3) .. "}") or ""
+		t_insert(rawLines, "Variant Affix: " .. range .. self.variantAffix.modId)
+	end
 	if self.itemLevel then
 		t_insert(rawLines, "Item Level: " .. self.itemLevel)
 	end
@@ -1291,6 +1313,9 @@ function ItemClass:BuildRaw()
 		end
 		if modLine.uniqueInherent then
 			line = "{uniqueInherent}" .. line
+		end
+		if modLine.variantAffix then
+			line = "{variantAffix}" .. line
 		end
 		if modLine.crafted then
 			line = "{crafted}" .. line
@@ -1458,9 +1483,28 @@ function ItemClass:Craft()
 	-- through import → XML round-trip via `Prefix: {kind:...}<id>`. ModItem
 	-- `specialAffixType == 6` is the legacy marker for corruption-exclusive
 	-- affixes; `specialAffixType == 4` marks Class-Specific Idol enchants.
-	local prefixMods, suffixMods, enchantMods = {}, {}, {}
+	local variantMods, prefixMods, suffixMods, enchantMods = {}, {}, {}, {}
 	local sealedMods, primordialMods, corruptedMods = {}, {}, {}
 	local slotKey = itemLib.slotKeyForType(self.type)
+	if self.variantAffix and self.variantAffix.modId
+		and self.variantAffix.modId ~= "None" then
+		local affix = self.variantAffix
+		local mod = self.affixes and self.affixes[affix.modId]
+		if mod then
+			local modScalar = 1 + (self.base.affixEffectModifier or 0)
+			if mod.standardAffixEffectModifier then
+				modScalar = modScalar / (1 + mod.standardAffixEffectModifier)
+			end
+			for _, line in ipairs(itemLib.modLinesForSlot(mod, slotKey)) do
+				t_insert(variantMods, {
+					line = line, range = affix.range, valueScalar = modScalar,
+					affixType = mod.type, tier = mod.tier,
+					specialAffixType = mod.specialAffixType,
+					variantAffix = true,
+				})
+			end
+		end
+	end
 	for listIdx, list in ipairs({self.prefixes,self.suffixes}) do
 		for i = 1, self.affixLimit / 2 do
 			local affix = list[i]
@@ -1711,6 +1755,7 @@ function ItemClass:Craft()
 
 	-- Assemble explicitModLines in the canonical display order:
 	--   prefix → suffix → enchant → unique-inherent / user-crafted → sealed → primordial → corrupted
+	for _, m in ipairs(variantMods) do t_insert(self.explicitModLines, m) end
 	for _, m in ipairs(prefixMods) do t_insert(self.explicitModLines, m) end
 	for _, m in ipairs(suffixMods) do t_insert(self.explicitModLines, m) end
 	for _, m in ipairs(enchantMods) do t_insert(self.explicitModLines, m) end

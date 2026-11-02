@@ -83,7 +83,8 @@ local function itemHasPrimordial(item)
 				for _, slot in ipairs(list) do
 					if slot.modId and slot.modId ~= "None" then
 						local mod = item.affixes[slot.modId]
-						if mod and mod.specialAffixType == 7 then return true end
+						if mod and mod.specialAffixType == 7
+							and mod.displayCategory ~= 44 then return true end
 					end
 				end
 			end

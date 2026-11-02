@@ -1349,6 +1349,7 @@ function ImportTabClass:BuildItemsFromMaxroll(buildData, profileData, char)
             explicitMods = {},
             prefixes     = {},
             suffixes     = {},
+            variantAffix = nil,
         }
 
         -- Implicits
@@ -1416,7 +1417,9 @@ function ImportTabClass:BuildItemsFromMaxroll(buildData, profileData, char)
                     -- (purple Sealed Legendary Affix moves above unique mods).
                     -- Establishing reference: see git log
                     local entry = { range = affix.roll, modId = modId, kind = affix.kind }
-                    if modData.type == "Prefix" then
+                    if modData.displayCategory == 44 then
+                        item.variantAffix = entry
+                    elseif modData.type == "Prefix" then
                         table.insert(item.prefixes, entry)
                     else
                         table.insert(item.suffixes, entry)
@@ -1973,6 +1976,7 @@ function ImportTabClass:ReadJsonSaveData(saveFileContent)
                     item["explicitMods"] = {}
                     item["prefixes"] = {}
                     item["suffixes"] = {}
+                    item["variantAffix"] = nil
                     if effectiveRarity >= 7 and effectiveRarity <= 9 then
                         -- 7 = Unique, 8 = Set, 9 = Legendary
                         if effectiveRarity == 8 then
@@ -2136,14 +2140,19 @@ function ImportTabClass:ReadJsonSaveData(saveFileContent)
                                     local idolNamespaceViolation = itemData["containerID"] == 29 and not idolAffixPool[affixId]
                                     ConPrintf("[AFFIX] base=%s slot=%d affixId=%d tier=%d modId=%s valid=%s", itemBaseName, i, affixId, affixTier, modId, tostring(modData ~= nil))
                                     if modData and not idolNamespaceViolation then
-                                        affixCount = affixCount + 1
-                                        if affixTier > maxTier then
-                                            maxTier = affixTier
-                                        end
-                                        if modData.type == "Prefix" then
-                                            table.insert(item.prefixes, { ["range"] = range, ["modId"] = modId, ["kind"] = affixKind })
+                                        if modData.displayCategory == 44 then
+                                            item.variantAffix = { ["range"] = range, ["modId"] = modId }
+                                            ConPrintf("[VARIANT] base=%s slot=%d modId=%s", itemBaseName, i, modId)
                                         else
-                                            table.insert(item.suffixes, { ["range"] = range, ["modId"] = modId, ["kind"] = affixKind })
+                                            affixCount = affixCount + 1
+                                            if affixTier > maxTier then
+                                                maxTier = affixTier
+                                            end
+                                            if modData.type == "Prefix" then
+                                                table.insert(item.prefixes, { ["range"] = range, ["modId"] = modId, ["kind"] = affixKind })
+                                            else
+                                                table.insert(item.suffixes, { ["range"] = range, ["modId"] = modId, ["kind"] = affixKind })
+                                            end
                                         end
                                     elseif affixId > maxKnownAffixId then
                                         -- Phantom over-read of trailing item payload (Omen/Woven
@@ -2673,6 +2682,7 @@ function ImportTabClass:BuildItem(itemData)
     end
     item.prefixes = itemData.prefixes;
     item.suffixes = itemData.suffixes;
+    item.variantAffix = itemData.variantAffix
     item.crafted = true
 
     local rarityBefore = item.rarity

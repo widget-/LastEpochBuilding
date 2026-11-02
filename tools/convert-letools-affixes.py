@@ -165,6 +165,7 @@ def convert(args):
 				"standardAffixEffectModifier": src.get("standardAffixEffectModifier", 0),
 				"canRollOn": can_roll if can_roll is not None else (template or {}).get("canRollOn", []),
 				"specialAffixType": src.get("specialAffixType", 0),
+				"displayCategory": src.get("displayCategory", 0),
 				"classSpecificity": leet.get("classSpecificity", (template or {}).get("classSpecificity", 0)),
 			}
 			if len(lines) > 1:
