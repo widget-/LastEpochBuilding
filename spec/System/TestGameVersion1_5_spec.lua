@@ -187,6 +187,27 @@ Poignard]])
 		assert.is_true((w or 0) > 0 and (h or 0) > 0)
 	end)
 
+	it("allows allocating the new skill tree nodes", function()
+		newBuild()
+		build.spec:SelectClass(4) -- Rogue
+		build.skillsTab:SelSkill(1, "Dreamslash")
+		build.spec:BuildAllDependsAndPaths()
+		local node = build.spec.nodes["dr4sl-1"]
+		assert.is_truthy(node, "Dreamslash node must exist")
+		assert.is_truthy(node.path, "Dreamslash nodes must be reachable from the class start")
+		build.spec:AllocNode(node)
+		assert.is_true((node.alloc or 0) > 0, "Dreamslash node must allocate")
+
+		newBuild()
+		build.spec:SelectClass(2) -- Sentinel
+		build.skillsTab:SelSkill(1, "Radiant Lance")
+		build.spec:BuildAllDependsAndPaths()
+		local lance = build.spec.nodes["ra1an-1"]
+		assert.is_truthy(lance and lance.path)
+		build.spec:AllocNode(lance)
+		assert.is_true((lance.alloc or 0) > 0)
+	end)
+
 	it("has sprites for every LETools a-r node icon used by the 1.5 trees", function()
 		local tree = main:LoadTree("1_5")
 		local missing = {}

@@ -318,6 +318,15 @@ def convert(args):
 					node_id = key[len(prefix) :]
 					if node_id.isdigit() and node_id not in skill_nodes:
 						del nodes[key]
+			root = nodes.get(tid + "-0")
+			if root is not None:
+				root["in"] = [class_name]
+				root["reqPoints"] = [1]
+				class_start = nodes.get(class_name)
+				if class_start is not None:
+					outs = set(class_start.get("out") or [])
+					outs.add(tid + "-0")
+					class_start["out"] = sorted(outs)
 
 		build_edges(nodes, lambda key, nid: key.split("-")[0] + "-" + str(nid))
 		connect_starts(nodes, class_data, class_name)
