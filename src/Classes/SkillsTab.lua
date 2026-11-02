@@ -287,6 +287,7 @@ local MASTERY_SKILL_UNLOCKS = {
 			{ name = "SymbolsOfHope", label = "Symbols of Hope", treeId = "si4lgl", level = 15 },
 			{ name = "Judgement", label = "Judgement", treeId = "pa67ju", level = 30 },
 			{ name = "HolyAura", label = "Holy Aura", treeId = "ah443" },
+			{ name = "RadiantLance", label = "Radiant Lance", treeId = "ra1an", level = 15 },
 		},
 	},
 	["Acolyte"] = {
@@ -344,6 +345,7 @@ local MASTERY_SKILL_UNLOCKS = {
 			{ name = "AerialAssault", label = "Aerial Assault", treeId = "aa989", level = 30 },
 			{ name = "DiveBomb", label = "Dive Bomb", treeId = "db992", level = 35 },
 			{ name = "Falconry", label = "Falconry", treeId = "falc0" },
+			{ name = "Dreamslash", label = "Dreamslash", treeId = "dr4sl", level = 10 },
 		},
 	},
 }

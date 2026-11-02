@@ -278,7 +278,7 @@ def convert(args):
 			ability_id = (skill_trees.get(tid) or {}).get("ability")
 			ability = abilities.get(ability_id) or {}
 			label = tr(ability.get("nameKey")) or tid
-			old_skills.append({"name": tid, "label": label, "treeId": tid})
+			old_skills.append({"name": label, "label": label, "treeId": tid})
 			present.add(tid)
 		class_data["skills"] = old_skills
 

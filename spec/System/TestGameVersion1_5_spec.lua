@@ -169,6 +169,37 @@ Poignard]])
 		end
 	end)
 
+	it("resolves the new skill display names and spec icons", function()
+		newBuild()
+		local spec = build.spec
+		for _, entry in ipairs({
+			{ class = "Dreamslash", tree = "dr4sl" },
+			{ class = "Radiant Lance", tree = "ra1an" },
+			{ class = "Summon Tide Elemental", tree = "su3lem" },
+		}) do
+			local root = spec.tree.nodes[entry.tree .. "-0"]
+			assert.is_truthy(root, entry.tree .. " root must exist")
+			assert.are.equal(entry.class, root.name)
+		end
+		local handle = build.skillsTab:GetSkillIconFromTree("dr4sl", true)
+		assert.is_truthy(handle, "Dreamslash spec icon must load")
+		local w, h = handle:ImageSize()
+		assert.is_true((w or 0) > 0 and (h or 0) > 0)
+	end)
+
+	it("has sprites for every LETools a-r node icon used by the 1.5 trees", function()
+		local tree = main:LoadTree("1_5")
+		local missing = {}
+		for _, node in pairs(tree.nodes) do
+			local icon = node.icon
+			if icon and icon:match("^a%-r%-%d+$") then
+				local f = io.open("TreeData/sprites/" .. icon .. ".png", "rb")
+				if f then f:close() else missing[#missing + 1] = icon end
+			end
+		end
+		assert.are.equal(0, #missing, "missing: " .. table.concat(missing, ", "))
+	end)
+
 	it("opens a 1.5 build and computes", function()
 		loadBuildFromXML(buildXML(), "1_5-spec")
 		assert.are.equal("1_5", build.spec.treeVersion)
