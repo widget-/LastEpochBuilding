@@ -87,6 +87,32 @@ describe("game version 1.5", function()
 		end
 	end)
 
+	it("formats the new 1.5 uniques without placeholder text", function()
+		local uniques = data.versionData["1_5"].uniques
+		assert.are.same({
+			"(15-30)% increased Effect of Frenzy on You",
+			"+(10-20)% Endurance",
+			"{rounding:Integer}+(100-200) Endurance Threshold",
+			"{rounding:Integer}+(4-8) Strength",
+			"{rounding:Integer}+(4-8) Vitality",
+		}, uniques[477].mods)
+		assert.are.same({
+			"(20-40)% Physical Resistance",
+			"+(20-40)% Cold Resistance",
+			"+(1-2) to Physical Skills",
+			"+(1-2) to Cold Skills",
+		}, uniques[479].mods)
+		for id = 471, 488 do
+			local unique = uniques[id]
+			assert.is_truthy(unique, "unique " .. id .. " must load")
+			for _, mod in ipairs(unique.mods) do
+				assert.is_nil(mod:find("Dark Protection", 1, true), id .. ": " .. mod)
+				assert.is_nil(mod:find("Level of Skills", 1, true), id .. ": " .. mod)
+				assert.is_nil(mod:find("No Ward", 1, true), id .. ": " .. mod)
+			end
+		end
+	end)
+
 	it("opens a 1.5 build and computes", function()
 		loadBuildFromXML(buildXML(), "1_5-spec")
 		assert.are.equal("1_5", build.spec.treeVersion)
