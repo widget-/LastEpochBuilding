@@ -3704,6 +3704,13 @@ local bloodRageSpecific = {
 	end,
 }
 
+-- "Throwing Attack Mana Cost" combines two flag words; the generic name path
+-- consumed "throwing" and left " Attack " residue. Cached 3-7% rows keep the
+-- old residue until ModCache is regenerated; the live pattern is correct.
+specialModList["^([%+%-]?[%d%.]+) throwing attack mana cost$"] = function(num)
+	return { mod("ManaCost", "BASE", tonumber(num), "", 0, KeywordFlag.Throwing) }
+end
+
 specialModList["^you have (.-) rage$"] = function(_, name)
 	name = (name or ""):gsub("%s+$", "")
 	local mods = bloodRageCommon()
@@ -3729,6 +3736,18 @@ specialModList["^%+?([%d%.]+)%% reduced bonus damage taken from critical strikes
 		mod("ReduceCritExtraDamage", "BASE", tonumber(num), "", 0, 0,
 			{ type = "PerStat", stat = "PhysicalResistOverCap", div = tonumber(div) }),
 	}
+end
+
+-- 1.5 Gathering Fury bow: the unique's attack-speed line names the skill.
+specialModList["^%+?([%d%.]+)%% gathering fury increased attack speed$"] = function(num)
+	return { mod("Speed", "INC", tonumber(num), "", ModFlag.Attack, 0,
+		{ type = "SkillName", skillName = "Gathering Fury" }) }
+end
+
+-- "Chance to repeat Bow Ability": RepeatCount is a chance/100 in LEB, scoped
+-- to bow attacks.
+specialModList["^%+?([%d%.]+)%% chance to repeat bow ability$"] = function(num)
+	return { mod("RepeatCount", "BASE", tonumber(num) / 100, "", 0, KeywordFlag.Bow) }
 end
 
 -- Buff-effect recognition (named stats only; no DPS integration yet)
@@ -4084,6 +4103,9 @@ for lower, canonical in pairs(skillNameByLower) do
 		specialModList["^%+?([%d%.]+)%% chance to cast " .. esc .. " after you use (.+) and hit a boss or rare enemy$"] = afterSkillBossRareBridge
 		specialModList["^%+?([%d%.]+)%% chance to cast " .. esc .. " on crit$"] = function(num)
 			return nsList(mod("ChanceToCast_" .. canonical:gsub("%s+",""), "BASE", num, "", 0, 0, { type = "SkillName", skillName = canonical }, { type = "Condition", var = "OnCrit" }))
+		end
+		specialModList["^%+?([%d%.]+)%% chance to cast " .. esc .. " on bow crit$"] = function(num)
+			return nsList(mod("ChanceToCast_" .. canonical:gsub("%s+",""), "BASE", num, "", 0, 0, { type = "SkillName", skillName = canonical }, { type = "Condition", var = "OnCrit" }, { type = "Condition", var = "UsingBow" }))
 		end
 		-- @leb-regression-guard:trigger-global-capped-on-crit-when-hit
 		-- "on crit (K second cooldown)" / "when hit (K second cooldown)": the trigger

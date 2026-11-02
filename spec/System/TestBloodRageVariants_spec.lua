@@ -52,6 +52,55 @@ describe("BloodRageVariants #modParser", function()
 		end
 	end)
 
+	it("on Bow Crit casts parse as bow-scoped triggers", function()
+		-- 13% is not in ModCache, so this exercises the live parser (the cached
+		-- 4-10% rows may still hold the old residue until ModCache is regenerated).
+		local mods, extra = modLib.parseMod("+13% chance to cast Shurikens on Bow Crit")
+		assert.is_nil(extra)
+		local trigger = find(mods, "ChanceToCast_Shurikens", "BASE")
+		assert.is_truthy(trigger)
+		assert.are.equal(13, trigger.value)
+		local hasCrit, hasBow = false, false
+		for _, tag in ipairs(trigger) do
+			if tag.type == "Condition" and tag.var == "OnCrit" then hasCrit = true end
+			if tag.type == "Condition" and tag.var == "UsingBow" then hasBow = true end
+		end
+		assert.is_true(hasCrit, "must gate on crit")
+		assert.is_true(hasBow, "must gate on using a bow")
+	end)
+
+	it("Gathering Fury and repeat Bow Ability parse", function()
+		-- Values below are not in ModCache so the live parser is exercised; cached
+		-- 1-10% rows keep their old residue until ModCache is regenerated.
+		local mods, extra = modLib.parseMod("+13% Gathering Fury increased attack speed")
+		assert.is_nil(extra)
+		local speed = find(mods, "Speed", "INC")
+		assert.is_truthy(speed)
+		assert.are.equal(13, speed.value)
+		local tagged = false
+		for _, tag in ipairs(speed) do
+			if tag.type == "SkillName" and tag.skillName == "Gathering Fury" then tagged = true end
+		end
+		assert.is_true(tagged, "must scope to Gathering Fury")
+
+		local repeatMods, repeatExtra = modLib.parseMod("+13% Chance to repeat Bow Ability")
+		assert.is_nil(repeatExtra)
+		local repeatMod = find(repeatMods, "RepeatCount", "BASE")
+		assert.is_truthy(repeatMod)
+		assert.is_true(math.abs(repeatMod.value - 0.13) < 1e-9)
+		assert.are.equal(KeywordFlag.Bow, repeatMod.keywordFlags)
+	end)
+
+	it("Throwing Attack Mana Cost consumes both flag words", function()
+		-- 13 is uncached; the 3-7 rows keep their old ModCache residue until regen.
+		local mods, extra = modLib.parseMod("-13 Throwing Attack Mana Cost")
+		assert.is_nil(extra)
+		local cost = find(mods, "ManaCost", "BASE")
+		assert.is_truthy(cost)
+		assert.are.equal(-13, cost.value)
+		assert.are.equal(KeywordFlag.Throwing, cost.keywordFlags)
+	end)
+
 	it("overcapped physical resistance gloves scale from the overcap stat", function()
 		local mods, extra = modLib.parseMod("+1% Increased Attack Speed per 5% Overcapped Physical Resistance")
 		assert.is_nil(extra)
