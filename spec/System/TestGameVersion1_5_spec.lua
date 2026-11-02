@@ -113,6 +113,46 @@ describe("game version 1.5", function()
 		end
 	end)
 
+	it("loads the new 1.5 skill definitions", function()
+		local dream = data.skills["Dreamslash"]
+		assert.is_truthy(dream, "Dreamslash must be defined")
+		assert.are.equal("dr4sl", dream.treeId)
+		assert.are.equal(1.5, dream.stats.damageEffectiveness)
+		assert.are.equal(2, dream.stats.melee_base_physical_damage)
+		assert.are.equal("Rogue", dream.class)
+		assert.are.equal("Bladedancer", dream.mastery)
+
+		local lance = data.skills["Radiant Lance"]
+		assert.is_truthy(lance, "Radiant Lance must be defined")
+		assert.are.equal("ra1an", lance.treeId)
+		assert.are.equal(5, lance.stats.damageEffectiveness)
+		assert.are.equal(100, lance.stats.spell_base_lightning_damage)
+		assert.are.equal("Sentinel", lance.class)
+		assert.are.equal("Paladin", lance.mastery)
+	end)
+
+	it("computes the new 1.5 skills", function()
+		newBuild()
+		build.spec:SelectClass(4) -- Rogue
+		build.characterLevelAutoMode = false
+		build.characterLevel = 100
+		build.itemsTab:CreateDisplayItemFromRaw([[Rarity: RARE
+Poignard
+Poignard]])
+		build.itemsTab:AddDisplayItem()
+		build.skillsTab:SelSkill(1, "Dreamslash")
+		runCallback("OnFrame")
+		assert.is_true((build.calcsTab.mainOutput.TotalDPS or 0) > 0, "Dreamslash must compute")
+
+		newBuild()
+		build.spec:SelectClass(2) -- Sentinel
+		build.characterLevelAutoMode = false
+		build.characterLevel = 100
+		build.skillsTab:SelSkill(1, "Radiant Lance")
+		runCallback("OnFrame")
+		assert.is_true((build.calcsTab.mainOutput.TotalDPS or 0) > 0, "Radiant Lance must compute")
+	end)
+
 	it("opens a 1.5 build and computes", function()
 		loadBuildFromXML(buildXML(), "1_5-spec")
 		assert.are.equal("1_5", build.spec.treeVersion)

@@ -3427,6 +3427,42 @@
       "Dexterity"
     ]
   },
+  "Dreamslash": {
+    "name": "Dreamslash",
+    "skillTypeTags": 513,
+    "castTime": 0.6363622,
+    "instantCastForPlayer": 0,
+    "fakeTags": 0,
+    "skillTreeConversionDamageTags": 2,
+    "areaTagDisplay": 1,
+    "minionTagsDisplay": 0,
+    "baseFlags": {
+      "melee": true,
+      "attack": true,
+      "hit": true,
+      "duration": true
+    },
+    "stats": {
+      "damageEffectiveness": 1.5,
+      "melee_base_physical_damage": 2,
+      "base_critical_strike_multiplier_+": 100,
+      "critChance": 5,
+      "base_skill_effect_duration": 300,
+      "cost": {
+        "Mana": 3
+      }
+    },
+    "baseMods": [
+      "4% increased Damage per player Dexterity"
+    ],
+    "treeId": "dr4sl",
+    "playerAbilityID": "dr4sl",
+    "attributeScalings": [
+      "Dexterity"
+    ],
+    "class": "Rogue",
+    "mastery": "Bladedancer"
+  },
   "Drain Life Stygian Beam": {
     "name": "Stygian Beam",
     "skillTypeTags": 288,
@@ -5842,6 +5878,41 @@
     "treeId": "fs11",
     "playerAbilityID": "fs11",
     "attributeScalings": []
+  },
+  "Radiant Lance": {
+    "name": "Radiant Lance",
+    "skillTypeTags": 258,
+    "castTime": 0.8181799,
+    "instantCastForPlayer": 0,
+    "fakeTags": 0,
+    "skillTreeConversionDamageTags": 26,
+    "areaTagDisplay": 1,
+    "minionTagsDisplay": 0,
+    "baseFlags": {
+      "spell": true,
+      "hit": true,
+      "duration": true
+    },
+    "stats": {
+      "damageEffectiveness": 5,
+      "spell_base_lightning_damage": 100,
+      "base_critical_strike_multiplier_+": 100,
+      "critChance": 5,
+      "base_skill_effect_duration": 40,
+      "cost": {
+        "Mana": 24
+      }
+    },
+    "baseMods": [
+      "4% increased Damage per player Attunement"
+    ],
+    "treeId": "ra1an",
+    "playerAbilityID": "ra1an",
+    "attributeScalings": [
+      "Attunement"
+    ],
+    "class": "Sentinel",
+    "mastery": "Paladin"
   },
   "ReaperForm": {
     "name": "Reaper Form",
