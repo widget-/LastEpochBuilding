@@ -69,6 +69,24 @@ describe("game version 1.5", function()
 		assert.is_true(count > 5907, "expected the 1.5 affix table to grow past 1.4")
 	end)
 
+	it("fills the implicit text for the new 1.5 bases", function()
+		local bases = data.versionData["1_5"].itemBases
+		assert.are.same(
+			{ "+90 Melee Damage", "+(40-55) Spell Damage", "(40-46)% increased Melee Attack Speed" },
+			bases["Axe Staff"].implicits)
+		assert.are.same(
+			{ "+40 Armor", "(12-16)% increased Movement Speed", "+1 Evade Charge" },
+			bases["Icescale Greaves"].implicits)
+		assert.are.same(
+			{ "+38 Melee Damage", "+(38-45) Spell Damage", "(3-5)% less Echo Damage when a skill is Echoed" },
+			bases["Warden Sceptre"].implicits)
+		for _, name in ipairs({ "Axe Staff", "Icescale Greaves", "Warden Sceptre", "Icicle Bow" }) do
+			for _, line in ipairs(bases[name].implicits) do
+				assert.is_true(pcall(modLib.parseMod, line), name .. ": " .. line)
+			end
+		end
+	end)
+
 	it("opens a 1.5 build and computes", function()
 		loadBuildFromXML(buildXML(), "1_5-spec")
 		assert.are.equal("1_5", build.spec.treeVersion)
