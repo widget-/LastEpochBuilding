@@ -153,6 +153,22 @@ Poignard]])
 		assert.is_true((build.calcsTab.mainOutput.TotalDPS or 0) > 0, "Radiant Lance must compute")
 	end)
 
+	it("has icons for the new 1.5 skill roots", function()
+		local tree = main:LoadTree("1_5")
+		for _, entry in ipairs({
+			{ "dr4sl-0", "dreamslash-root" },
+			{ "ra1an-0", "radiant_lance-root" },
+			{ "su3lem-0", "summon_tide_elemental-root" },
+		}) do
+			local node = tree.nodes[entry[1]]
+			assert.is_truthy(node, entry[1] .. " must exist")
+			assert.are.equal(entry[2], node.icon)
+			local f = io.open("TreeData/sprites/" .. entry[2] .. ".png", "rb")
+			assert.is_truthy(f, entry[2] .. ".png must exist")
+			f:close()
+		end
+	end)
+
 	it("opens a 1.5 build and computes", function()
 		loadBuildFromXML(buildXML(), "1_5-spec")
 		assert.are.equal("1_5", build.spec.treeVersion)
