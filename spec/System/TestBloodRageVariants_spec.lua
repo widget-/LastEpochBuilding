@@ -51,6 +51,24 @@ describe("BloodRageVariants #modParser", function()
 			assert.are.equal(10, m.value)
 		end
 	end)
+
+	it("overcapped physical resistance gloves scale from the overcap stat", function()
+		local mods, extra = modLib.parseMod("+1% Increased Attack Speed per 5% Overcapped Physical Resistance")
+		assert.is_nil(extra)
+		local speed = find(mods, "Speed", "INC")
+		assert.is_truthy(speed)
+		assert.are.equal(1, speed.value)
+		local tag = speed[1]
+		assert.is_truthy(tag and tag.type == "PerStat")
+		assert.are.equal("PhysicalResistOverCap", tag.stat)
+		assert.are.equal(5, tag.div)
+
+		local critMods, critExtra = modLib.parseMod("+1% Reduced Bonus Damage Taken from Critical Strikes per 4% Overcapped Physical Resistance")
+		assert.is_nil(critExtra)
+		local crit = find(critMods, "ReduceCritExtraDamage", "BASE")
+		assert.is_truthy(crit)
+		assert.are.equal(4, crit[1].div)
+	end)
 end)
 
 describe("BloodRageVariants build import #modParser", function()

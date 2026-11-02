@@ -3714,6 +3714,23 @@ specialModList["^you have (.-) rage$"] = function(_, name)
 	return mods
 end
 
+-- 1.5 overcap gloves (variant affixes 1140/1141): scale the stat per N%
+-- over the physical resistance cap. PerStat reads PhysicalResistOverCap from
+-- the defence output, the same way other overcapped-resistance formulas do.
+specialModList["^%+?([%d%.]+)%% increased attack speed per ([%d%.]+)%% overcapped physical resistance$"] = function(num, _, div)
+	return {
+		mod("Speed", "INC", tonumber(num), "", ModFlag.Attack, 0,
+			{ type = "PerStat", stat = "PhysicalResistOverCap", div = tonumber(div) }),
+	}
+end
+
+specialModList["^%+?([%d%.]+)%% reduced bonus damage taken from critical strikes per ([%d%.]+)%% overcapped physical resistance$"] = function(num, _, div)
+	return {
+		mod("ReduceCritExtraDamage", "BASE", tonumber(num), "", 0, 0,
+			{ type = "PerStat", stat = "PhysicalResistOverCap", div = tonumber(div) }),
+	}
+end
+
 -- Buff-effect recognition (named stats only; no DPS integration yet)
 local knownBuffsOnYou = { "Haste", "Frenzy", "Haven", "Rebuke", "Unholy Might", "Smoke Bomb" }
 for _, buff in ipairs(knownBuffsOnYou) do
